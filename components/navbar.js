@@ -114,7 +114,12 @@ function Navbar() {
               </div>
             </div>
             {/* Whatsapp*/}
-            <div className="flex items-center border-2 border-whatsapp rounded-full min-w-max cursor-pointer md:hidden ">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://wa.me/+32494924558"
+              className="flex items-center border-2 border-whatsapp rounded-full min-w-max cursor-pointer md:hidden hover:opacity-75 transition ease-in-out duration-500"
+            >
               <div className="bg-whatsapp rounded-full  p-2">
                 <svg
                   width="19"
@@ -132,7 +137,7 @@ function Navbar() {
               <li className="text-whatsapp font-black text-xs px-4 list-none">
                 +32 3 237 17 40
               </li>
-            </div>
+            </a>
           </div>
           {/* Menu Mobile */}
           <Disclosure.Panel className="hidden md:flex justify-center items-center w-full">

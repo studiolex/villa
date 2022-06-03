@@ -82,7 +82,7 @@ export default function Home() {
             <div className="relative mb-6 md:hidden">
               <div className="relative">
                 <Link className="" href="/contact">
-                  <a className="bg-brown text-cream rounded-full w-52 h-52 flex items-center justify-center	relative font-serif uppercase font-bold xl:w-44 xl:h-44">
+                  <a className="bg-brown text-cream rounded-full w-52 h-52 flex items-center justify-center	relative font-serif uppercase font-bold border-2 border-cream xl:w-44 xl:h-44 transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 hover:text-gold hover:bg-cream hover hover:border-4 hover:border-brown">
                     Get in touch
                   </a>
                 </Link>
@@ -254,7 +254,7 @@ export default function Home() {
             </span>
             You&apos;re always welcome
           </h2>
-          <div className="my-20 2xl:pl-12 md:px-6 sm:px-4 xs:px-2 sm:my-10">
+          <div className="my-20 md:px-6 sm:px-4 xs:px-2 sm:my-10">
             <Gallery />{" "}
           </div>
         </article>
@@ -306,7 +306,7 @@ export default function Home() {
                 <div className="flex items-center py-12 md:flex-col ">
                   <Link href="/contact">
                     <div className="inline-block min-w-max ">
-                      <div className="flex bg-cream rounded-full items-center  ">
+                      <div className="flex bg-cream rounded-full items-center text-brown transition ease-in-out duration-300 hover:text-gold hover:bg-cream hover  ">
                         <div className="bg-gold rounded-full p-2 border-2 border-cream">
                           <svg
                             width="20"
@@ -331,7 +331,7 @@ export default function Home() {
                             />
                           </svg>
                         </div>
-                        <a className="uppercase text-brown px-4 pr-6 font-serif text-m">
+                        <a className="uppercase  px-4 pr-6 font-serif text-m hover">
                           Book your stay!
                         </a>
                       </div>

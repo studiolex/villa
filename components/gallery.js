@@ -177,10 +177,16 @@ function Gallery() {
           </div>
         </Swiper>
         <div className="flex items-center justify-center my-8 space-x-10">
-          <div className="swiper-button cursor-pointer" ref={prevRef}>
+          <div
+            className="swiper-button cursor-pointer transition ease-in-out delay-50 hover:-translate-r-1 hover:scale-110  duration-300"
+            ref={prevRef}
+          >
             <ArrowLeft />
           </div>
-          <div className="swiper-button cursor-pointer" ref={nextRef}>
+          <div
+            className="swiper-button cursor-pointer transition ease-in-out delay-50 hover:-translate-l-1 hover:scale-110  duration-300"
+            ref={nextRef}
+          >
             <ArrowRight />
           </div>
         </div>
