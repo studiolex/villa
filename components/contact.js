@@ -67,7 +67,10 @@ function Contact() {
                     <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full ">
                       <Whatsapp />
                     </div>
-                    <a className="text-cream mx-auto sm:text-lg sm:mx-6 xs:mx-3 ">
+                    <a
+                      href="https://wa.me/+32494924558"
+                      className="text-cream mx-auto sm:text-lg sm:mx-6 xs:mx-3 "
+                    >
                       +32 4 94 92 45 58
                     </a>
                   </div>

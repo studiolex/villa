@@ -49,7 +49,9 @@ function Footer() {
                 <div className="flex items-center space-x-6 py-6 font-mono ">
                   <FacebookGold />
                   <InstagramGold />
-                  <WhatsappGold />
+                  <a href="https://wa.me/+32494924558">
+                    <WhatsappGold />
+                  </a>
                 </div>
               </div>
               <ul className="font-mono md:mt-10 ">
@@ -102,10 +104,10 @@ function Footer() {
             </div>
             <div className="flex flex-col justify-between">
               <p className="text-gold py-6 font-serif">Linda Vogelenzang</p>
-              <p className="font-mono">
+              <a className="font-mono">
                 linda@ylvilla.be <br></br>
                 +32 4 94 92 45 58
-              </p>
+              </a>
             </div>
           </div>
         </div>

@@ -65,7 +65,10 @@ export default function Home() {
                   <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full ">
                     <Whatsapp />
                   </div>
-                  <a className="text-brown px-6 mx-auto sm:text-lg ">
+                  <a
+                    href="https://wa.me/+32494924558"
+                    className="text-brown px-6 mx-auto sm:text-lg "
+                  >
                     +32 4 94 92 45 58
                   </a>
                 </div>

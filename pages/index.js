@@ -39,13 +39,13 @@ export default function Home() {
                   alt="Y&L Villa Welcome Gift"
                 />
               </div>
-              <h1 className="text-brown text-right uppercase font-sans font-black text-8xl mt-6 leading-tight tracking-widest md:text-6xl md:flex md:justify-center md:mt-0">
+              <h1 className="text-brown text-right uppercase font-sans font-black text-8xl mt-6 leading-tight tracking-widest md:text-6xl md:flex md:justify-center md:mt-0 sm:text-5xl">
                 Y&L <br /> <span className="font-light">Villa</span>
               </h1>
             </div>
             <div className="relative mb-6 md:hidden">
               <div className="relative">
-                <Link className="" href="/home">
+                <Link className="" href="/contact">
                   <a className="bg-brown text-cream rounded-full w-52 h-52 flex items-center justify-center	relative font-serif uppercase font-bold xl:w-44 xl:h-44">
                     Get in touch
                   </a>
@@ -107,7 +107,11 @@ export default function Home() {
               available in all rooms. This service is free.
             </p>
             <div className="flex items-center mb-4">
-              <p className="text-brown uppercase pr-2 font-serif">Read more</p>
+              <Link className="" href="/#about">
+                <a className="text-brown uppercase pr-2 font-serif">
+                  Read more
+                </a>
+              </Link>
               <svg
                 width="12"
                 height="12"
@@ -126,7 +130,7 @@ export default function Home() {
             </div>
             <div className="relative mb-6 hidden md:flex md:flex-row-reverse items-end">
               <div className="relative">
-                <Link className="" href="/home">
+                <Link className="" href="/contact">
                   <a className="bg-brown text-cream rounded-full flex items-center justify-center	relative font-serif uppercase font-bold w-36 h-36">
                     Get in touch
                   </a>
@@ -323,7 +327,7 @@ export default function Home() {
                     </div>
                   </Link>
                   <ul className="list-disc md:list-none">
-                    <li className="pl-4 ml-8 text-xs font-bold italic md:text-center md:mt-6">
+                    <li className="pl-4 ml-8 text-xs font-bold italic md:text-center md:mt-6 md:pl-0 md:ml-0">
                       Book directly via this website for the best conditions.
                       Prices for events, workshops or business meetings are on
                       request.
@@ -642,7 +646,7 @@ export default function Home() {
                   nights, we request a deposit of 25% of the total amount.
                 </p>
                 <br />
-                <ul className="list-disc ml-8 font-medium text-sm italic">
+                <ul className="list-disc ml-8 font-medium text-sm italic ">
                   <li className="">
                     Please note that the city tax is € 2,97 per person per
                     night.
@@ -698,7 +702,7 @@ export default function Home() {
                   />
                 </svg>
                 <div>
-                  <p className="font-sans font-black text-6xl text-gold">
+                  <p className="font-sans font-black text-6xl text-gold sm:text-5xl">
                     15<span className="text-xs uppercase">pm</span>
                   </p>
                   <p>Check-in</p>
@@ -745,7 +749,7 @@ export default function Home() {
                 </svg>
 
                 <div>
-                  <p className="font-sans font-black text-6xl text-gold">
+                  <p className="font-sans font-black text-6xl text-gold sm:text-5xl">
                     12<span className="text-xs uppercase">pm</span>
                   </p>
                   <p>Check-out</p>
@@ -753,7 +757,7 @@ export default function Home() {
               </div>
               <div className="md:col-span-2 md:text-center ">
                 <div className="inline-block min-w-max  md:text-center md:mt-8">
-                  <div className="flex border-2 border-gold rounded-full p-2 py-2 px-4 pr-6 ">
+                  <div className="flex border-2 border-gold rounded-full p-2 py-2 px-4 pr-6 items-center">
                     <div className="mx-4">
                       <svg
                         width="6"
@@ -774,7 +778,7 @@ export default function Home() {
                         />
                       </svg>
                     </div>
-                    <p className="text-gold">
+                    <p className="text-gold text-sm">
                       Check-in is by appointment only.
                     </p>
                   </div>
