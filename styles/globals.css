@@ -1,16 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 200;
+  background-color: #fffcf5;
+  background: linear-gradient(#fbf7ee 0 0) calc(1 * 100% / 6),
+    linear-gradient(#fbf7ee 0 0) calc(2 * 100% / 6),
+    linear-gradient(#fbf7ee 0 0) calc(3 * 100% / 6),
+    linear-gradient(#fbf7ee 0 0) calc(4 * 100% / 6),
+    linear-gradient(#fbf7ee 0 0) calc(5 * 100% / 6), #fffcf5;
+  background-size: 2px 100%; /* Control the width here*/
+  background-repeat: no-repeat;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "InikaBold";
+  src: local("InikaBold"), url(/fonts/Inika-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "InikaRegular";
+  src: local("InikaRegular"), url(/fonts/Inika-Regular.woff) format("woff");
+}
+
+.swiper-wrapper {
+  align-items: flex-end;
+}
+
+.swiper,
+.swiper-wrapper {
+  position: unset !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #704e2e !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #b19c61 !important;
+}
+
+.swiper-button-disabled {
+  opacity: 0.2;
+}
+
+.swiper-pagination {
+  bottom: 20px !important;
+}
+
+.active {
+  color: #704e2e;
+}
+
+.gallery .swiper-wrapper .swiper-slide img {
+  width: 100vw !important;
+}
+
+.swiper-slide {
+  width: auto !important;
+}
+.gallery .swiper-pagination {
+  bottom: -15px !important;
+}
+
+.gallery .swiper-pagination-bullet {
+  width: 12px !important;
+  height: 6px !important;
+  border-radius: 10rem;
+  background-color: #b19c61 !important;
+  opacity: 1 !important;
+}
+.gallery .swiper-pagination-bullet-active {
+  background-color: #704e2e !important;
+  width: 24px !important;
+}
+
+@media screen and (max-width: 850px) {
+  html,
+  body {
+    background: linear-gradient(#fbf7ee 0 0) calc(1 * 100% / 3),
+      linear-gradient(#fbf7ee 0 0) calc(2 * 100% / 3),
+      linear-gradient(#fbf7ee 0 0) calc(3 * 100% / 3),
+      linear-gradient(#fbf7ee 0 0) calc(4 * 100% / 3),
+      linear-gradient(#fbf7ee 0 0) calc(5 * 100% / 3), #fffcf5;
+    background-size: 2px 100%; /* Control the width here*/
+    background-repeat: no-repeat;
+  }
 }
