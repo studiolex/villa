@@ -71,7 +71,7 @@ function Contact() {
                   <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full ">
                     <Whatsapp />
                   </div>
-                  <p className=" mx-auto sm:text-lg sm:mx-6 xs:mx-3 ">
+                  <p className=" font-black mx-auto text-[.85rem] sm:text-[1rem] sm:mx-6 xs:mx-3 ">
                     +32 4 94 92 45 58
                   </p>
                 </a>
@@ -84,7 +84,7 @@ function Contact() {
                   <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full">
                     <Mail />
                   </div>
-                  <p className=" mx-auto sm:text-lg sm:mx-6 xs:mx-3 ">
+                  <p className=" font-black mx-auto text-[.9rem] sm:text-[1.05rem] sm:mx-6 xs:mx-3 ">
                     linda@ylvilla.be
                   </p>
                 </a>

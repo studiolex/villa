@@ -69,7 +69,7 @@ export default function Home() {
                 <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full ">
                   <Whatsapp />
                 </div>
-                <p className="text-brown px-6 mx-auto sm:text-lg ">
+                <p className="text-brown text-[.85rem] font-black px-6 mx-auto sm:text-[1rem] ">
                   +32 4 94 92 45 58
                 </p>
               </a>
@@ -82,7 +82,7 @@ export default function Home() {
                 <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full">
                   <Mail />
                 </div>
-                <p className="text-brown px-6 mx-auto sm:text-lg ">
+                <p className="text-brown text-[.9rem] font-black px-6 mx-auto sm:text-[1.05rem] ">
                   linda@ylvilla.be
                 </p>
               </a>
