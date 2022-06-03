@@ -121,7 +121,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://www.visitantwerpen.be/nl"
-                      className="text-brown font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                      className="text-brown font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                     >
                       www.visitantwerpen.be
                     </a>
@@ -173,7 +173,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.invincible.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.invincible.be
                       </a>
@@ -184,7 +184,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.dimdining.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.dimdining.be
                       </a>
@@ -196,7 +196,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.bistrotdunord.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.bistrotdunord.be
                       </a>
@@ -207,7 +207,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.zilte.be/"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.tzilte.be
                       </a>
@@ -218,7 +218,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.thejaneantwerp.com"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.thejaneantwerp.com
                       </a>
@@ -229,7 +229,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.hetgebaar.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.hetgebaar.be
                       </a>
@@ -240,7 +240,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.roji.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.roji.be
                       </a>
@@ -251,7 +251,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.docks.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.docks.be
                       </a>
@@ -262,7 +262,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.ras.today"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         {" "}
                         www.ras.today
@@ -274,7 +274,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.pazzo.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         {" "}
                         www.pazzo.be
@@ -286,7 +286,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.plateauroyal.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
                         www.plateauroyal.be
                       </a>
