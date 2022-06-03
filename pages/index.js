@@ -48,7 +48,7 @@ export default function Home() {
                   </Link>
                 </div>
                 <div className=" ">
-                  <div className=" flex items-center border-2 border-brown rounded-full py-2 px-4 pr-6 bg-cream z-0 ">
+                  <div className=" flex items-center border-2 border-brown rounded-full px-1 py-2 pr-6 bg-cream z-0 ">
                     <div className="mx-4">
                       <svg
                         width="6"
