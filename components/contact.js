@@ -7,7 +7,7 @@ import Mail from "../public/images/mail.svg";
 function Contact() {
   return (
     <article className="bg-brown ">
-      <div className="w-[100rem] py-12 mx-auto 2xl:w-full 2xl:px-12 md:px-6 md:py-16 ">
+      <div className="w-[100rem] py-12 mx-auto 2xl:w-full 2xl:px-12 md:px-6 md:py-16 sm:px-2 ">
         <div className="grid grid-cols-2 gap-6 lg:flex lg:flex-col">
           <div className="flex flex-col justify-between py-4 sm:pb-10 ">
             <div className="leading-tight sm:flex sm:flex-col sm:items-center">
@@ -62,29 +62,32 @@ function Contact() {
               </div>
 
               <div className=" font-bold text-sm sm:py-6 sm:flex sm:flex-wrap sm:justify-around">
-                <Link href="home">
-                  <div className="flex items-center border-2 border-cream rounded-full my-4 sm:m-4 ">
-                    <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full ">
-                      <Whatsapp />
-                    </div>
-                    <a
-                      href="https://wa.me/+32494924558"
-                      className="text-cream mx-auto sm:text-lg sm:mx-6 xs:mx-3 "
-                    >
-                      +32 4 94 92 45 58
-                    </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://wa.me/+32494924558"
+                  className="flex items-center border-2 border-cream rounded-full my-4 sm:m-4 hover:opacity-75 transition ease-in-out duration-500  text-cream"
+                >
+                  <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full ">
+                    <Whatsapp />
                   </div>
-                </Link>
-                <Link href="home">
-                  <div className="flex items-center border-2 border-cream rounded-full my-4 sm:m-4 ">
-                    <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full">
-                      <Mail />
-                    </div>
-                    <a className="text-cream mx-auto sm:text-lg sm:mx-6 xs:mx-3 ">
-                      linda@ylvilla.be
-                    </a>
+                  <p className=" mx-auto sm:text-lg sm:mx-6 xs:mx-3 ">
+                    +32 4 94 92 45 58
+                  </p>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:linda@ylvilla.be"
+                  className="flex items-center border-2 border-cream rounded-full my-4 sm:m-4  hover:opacity-75 transition ease-in-out duration-500 text-cream"
+                >
+                  <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full">
+                    <Mail />
                   </div>
-                </Link>
+                  <p className=" mx-auto sm:text-lg sm:mx-6 xs:mx-3 ">
+                    linda@ylvilla.be
+                  </p>
+                </a>
               </div>
             </div>
           </div>

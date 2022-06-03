@@ -14,8 +14,8 @@ function Footer() {
           <div className="bg-darkcream p-12 py-20 2xl:px-12 md:py-10 md:space-y-6 lg:py-20 md:px-6 sm:px-2">
             <div className="w-[calc(50rem-3rem)] ml-auto  2xl:w-full">
               <div className="flex justify-between items-center mb-36 md:mb-0 md:pb-6 md:border-b-2 md:border-gold ">
-                <div className="">
-                  <Link className="" href="/">
+                <div className="cursor-pointer">
+                  <Link href="/">
                     <svg
                       width="53"
                       height="74"
@@ -47,9 +47,26 @@ function Footer() {
                   </Link>
                 </div>
                 <div className="flex items-center space-x-6 py-6 font-mono ">
-                  <FacebookGold />
-                  <InstagramGold />
-                  <a href="https://wa.me/+32494924558">
+                  {" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/YL-Villa-Antwerp-378581499426983/"
+                  >
+                    <FacebookGold />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/ylvilla_antwerp/"
+                  >
+                    <InstagramGold />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://wa.me/+32494924558"
+                  >
                     <WhatsappGold />
                   </a>
                 </div>
@@ -58,37 +75,51 @@ function Footer() {
                 <div className="flex items-center justify-between md:flex-col md:space-y-6 lg:border-b-2 lg:border-gold lg:pb-10 ">
                   <li className="">
                     <Link className="" href="/">
-                      <a>Home</a>
+                      <a className="hover:text-gold transition ease-in-out duration-300">
+                        Home
+                      </a>
                     </Link>
                   </li>
                   <li className="">
                     <Link className="" href="/#about">
-                      <a>About</a>
+                      <a className="hover:text-gold transition ease-in-out duration-300">
+                        About
+                      </a>
                     </Link>
                   </li>
                   <li className="">
                     <Link className="" href="/#gallery">
-                      <a>Gallery</a>
+                      <a className="hover:text-gold transition ease-in-out duration-300">
+                        Gallery
+                      </a>
                     </Link>
                   </li>
                   <li className="">
                     <Link className="" href="/#prices">
-                      <a>Prices</a>
+                      <a className="hover:text-gold transition ease-in-out duration-300">
+                        Prices
+                      </a>
                     </Link>
                   </li>
                   <li className="">
                     <Link className="" href="/#practical">
-                      <a>Practical info</a>
+                      <a className="hover:text-gold transition ease-in-out duration-300">
+                        Practical info
+                      </a>
                     </Link>
                   </li>
                   <li className="">
                     <Link className="" href="/location">
-                      <a>Location</a>
+                      <a className="hover:text-gold transition ease-in-out duration-300">
+                        Location
+                      </a>
                     </Link>
                   </li>
                   <li className="">
                     <Link className="" href="/contact">
-                      <a>Contact</a>
+                      <a className="hover:text-gold transition ease-in-out duration-300">
+                        Contact
+                      </a>
                     </Link>
                   </li>
                 </div>
@@ -98,16 +129,35 @@ function Footer() {
           <div className="w-[calc(50rem-3rem)] p-12 mr-auto grid grid-cols-2 gap-6 py-20 2xl:w-full md:flex md:px-6 md:justify-around md:py-10 sm:px-2">
             <div className="flex flex-col justify-between">
               <p className="text-gold py-6 font-serif">Contact</p>
-              <p className="font-mono">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.google.be/maps/place/HH+Geeststraat+7,+2000+Antwerpen/@51.218846,4.3957787,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f6f69face41b:0x79551ef9613ddce8!8m2!3d51.2188427!4d4.3979674"
+                className="font-mono hover:text-gold transition ease-in-out duration-300"
+              >
                 Heilige Geeststraat 7, <br></br> 2000 Antwerp
-              </p>
+              </a>
             </div>
             <div className="flex flex-col justify-between">
               <p className="text-gold py-6 font-serif">Linda Vogelenzang</p>
-              <a className="font-mono">
-                linda@ylvilla.be <br></br>
-                +32 4 94 92 45 58
-              </a>
+              <div className="font-mono flex flex-col">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:linda@ylvilla.be"
+                  className="hover:text-gold transition ease-in-out duration-300"
+                >
+                  linda@ylvilla.be{" "}
+                </a>{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://wa.me/+32494924558"
+                  className="hover:text-gold transition ease-in-out duration-300"
+                >
+                  +32 4 94 92 45 58
+                </a>
+              </div>
             </div>
           </div>
         </div>

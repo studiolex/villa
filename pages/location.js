@@ -49,12 +49,15 @@ export default function Home() {
                 />
               </div>
               <div className="absolute right-[10%] -top-24 mb-24 xl:right-[4%] md:right-[2%]">
-                <Link className="" href="/home">
-                  <a className="bg-brown text-cream rounded-full w-52 h-52 flex flex-col items-center justify-center	relative font-serif text-center font-bold xl:w-44 xl:h-44">
-                    Vrijdagmarkt,
-                    <span className="font-mono">Antwerpen</span>
-                  </a>
-                </Link>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.google.com/maps/place/Vrijdagmarkt,+2000+Antwerpen/@51.2184599,4.3986174,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f6f6bf5d9d87:0x1ff78967db0fcf94!8m2!3d51.2184599!4d4.3986174"
+                  className="bg-brown text-cream rounded-full w-52 h-52 flex flex-col items-center justify-center	relative font-serif text-center font-bold xl:w-44 xl:h-44"
+                >
+                  Vrijdagmarkt,
+                  <span className="font-mono">Antwerpen</span>
+                </a>
               </div>
             </div>
           </div>
@@ -85,9 +88,14 @@ export default function Home() {
                 <ul className="list-disc ml-4 leading-loose">
                   <li>
                     Visit Antwerpen –
-                    <span className="text-brown font-serif">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.visitantwerpen.be/nl"
+                      className="text-brown font-serif hover:opacity-50 transition ease-in-out duration-300"
+                    >
                       www.visitantwerpen.be
-                    </span>
+                    </a>
                   </li>
                   <li>Museum Plantin-Moretus “next to the house”</li>
                   <li>Cathedral of our Lady,</li>
@@ -128,64 +136,125 @@ export default function Home() {
                   <ul className="list-disc ml-4 leading-loose">
                     <li>
                       Restaurant Invincible –
-                      <span className="text-gold font-serif">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.invincible.be"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
                         www.invincible.be
-                      </span>
+                      </a>
                     </li>
                     <li>
                       Restaurant DIM –
-                      <span className="text-gold font-serif">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.dimdining.be"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
                         www.dimdining.be
-                      </span>
+                      </a>
                     </li>
                     <li>Restaurant ’ T Fornuis * Michelin</li>
                     <li>
                       Restaurant Bistrot du Nord –
-                      <span className="text-gold font-serif">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.bistrotdunord.be"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
                         www.bistrotdunord.be
-                      </span>
+                      </a>
                     </li>
                     <li>
                       Restaurant ’t Zilte –
-                      <span className="text-gold font-serif">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.zilte.be/"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
                         www.tzilte.be
-                      </span>
+                      </a>
                     </li>
                     <li>
                       Restaurant the Jane * Michelin –
-                      <span className="text-gold font-serif">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.thejaneantwerp.com"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
                         www.thejaneantwerp.com
-                      </span>
+                      </a>
                     </li>
                     <li>
                       Restaurant Het Gebaar –
-                      <span className="text-gold font-serif">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.hetgebaar.be"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
                         www.hetgebaar.be
-                      </span>
+                      </a>
                     </li>
                     <li>
                       Restaurant Roji Sushi –
-                      <span className="text-gold font-serif">www.roji.be</span>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.roji.be"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
+                        www.roji.be
+                      </a>
                     </li>
                     <li>
                       Restaurant Dock’s cafe –
-                      <span className="text-gold font-serif">www.docks.be</span>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.docks.be"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
+                        www.docks.be
+                      </a>
                     </li>
                     <li>
                       Restaurant RAS –
-                      <span className="text-gold font-serif">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.ras.today"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
                         www.ras.today
-                      </span>
+                      </a>
                     </li>
                     <li>
                       Restaurant Pazzo –
-                      <span className="text-gold font-serif">www.pazzo.be</span>
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.pazzo.be"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
+                        www.pazzo.be
+                      </a>
                     </li>
                     <li>
                       Restaurant Plateau Royal –
-                      <span className="text-gold font-serif">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.plateauroyal.be"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      >
                         www.plateauroyal.be
-                      </span>
+                      </a>
                     </li>
                   </ul>
                 </div>

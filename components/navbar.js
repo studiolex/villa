@@ -36,7 +36,9 @@ function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-cream py-2 px-10 fixed z-10  w-full 2xl:w-full 2xl:px-12 md:px-6 md:py-4 sm:px-2"
+      className="bg-cream py-2 px-10 fixed z-10  w-full 2xl:w-full 2xl:px-12 md:px-6 md:py-4 sm:px-2 md:shadow-2xl
+
+      "
     >
       {({ open }) => (
         <>
@@ -81,8 +83,8 @@ function Navbar() {
                         smooth
                         href={item.href}
                         className={classNames(
-                          item.current ? " text-brown" : "text-gold ",
-                          "text-xs font-black uppercase"
+                          item.current ? " text-brown " : "text-gold ",
+                          "text-xs font-black uppercase hover:opacity-50 transition ease-in-out duration-300"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -99,8 +101,8 @@ function Navbar() {
                         smooth
                         href={item.href}
                         className={classNames(
-                          item.current ? " text-brown" : "text-gold ",
-                          "text-xs font-black uppercase"
+                          item.current ? " text-brown " : "text-gold ",
+                          "text-xs font-black uppercase hover:opacity-50 transition ease-in-out duration-300"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -134,7 +136,7 @@ function Navbar() {
           </div>
           {/* Menu Mobile */}
           <Disclosure.Panel className="hidden md:flex justify-center items-center w-full">
-            <div className=" pt-2 pb-3 space-y-1 text-center border-brown border-b-2 w-full">
+            <div className=" py-10 space-y-1 text-center border-gold border-b-2 w-[75%]  mt-6">
               <Scrollspy
                 items={["home", "about", "gallery", "prices", "practical"]}
                 currentClassName="active"
@@ -147,7 +149,7 @@ function Navbar() {
                     href={item.href}
                     className={classNames(
                       item.current ? "text-brown" : "text-gold ",
-                      "block py-4 rounded-md text-base font-black uppercase "
+                      "block py-4 rounded-md text-base font-black uppercase hover:opacity-50 transition ease-in-out duration-300"
                     )}
                     aria-current={item.current ? "page" : undefined}
                   >

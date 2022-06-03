@@ -60,29 +60,32 @@ export default function Home() {
             </div>
 
             <div className=" font-bold text-sm md:py-6  md:flex md:flex-wrap md:justify-center md:col-span-2 ">
-              <Link href="home">
-                <div className="flex items-center border-2 border-brown rounded-full  my-4 md:m-4">
-                  <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full ">
-                    <Whatsapp />
-                  </div>
-                  <a
-                    href="https://wa.me/+32494924558"
-                    className="text-brown px-6 mx-auto sm:text-lg "
-                  >
-                    +32 4 94 92 45 58
-                  </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://wa.me/+32494924558"
+                className="flex items-center border-2 border-brown rounded-full  my-4 md:m-4"
+              >
+                <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full ">
+                  <Whatsapp />
                 </div>
-              </Link>
-              <Link href="home">
-                <div className="flex items-center border-2 border-brown rounded-full my-4 md:m-4 ">
-                  <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full">
-                    <Mail />
-                  </div>
-                  <a className="text-brown px-6 mx-auto sm:text-lg ">
-                    linda@ylvilla.be
-                  </a>
+                <p className="text-brown px-6 mx-auto sm:text-lg ">
+                  +32 4 94 92 45 58
+                </p>
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:linda@ylvilla.be"
+                className="flex items-center border-2 border-brown rounded-full my-4 md:m-4 "
+              >
+                <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full">
+                  <Mail />
                 </div>
-              </Link>
+                <p className="text-brown px-6 mx-auto sm:text-lg ">
+                  linda@ylvilla.be
+                </p>
+              </a>
             </div>
           </div>
         </article>
@@ -96,14 +99,17 @@ export default function Home() {
             />
           </div>
           <div className="absolute right-[10%] -top-24 mb-24">
-            <Link className="" href="/home">
-              <a className="bg-brown text-cream rounded-full w-52 h-52 flex flex-col items-center justify-center	relative font-serif text-center font-bold leading-relaxed md:w-44 md:h-44 md:text-sm">
-                Heilige geeststraat 7,
-                <span className="font-mono">
-                  2000 Antwerpen <br /> Belgium
-                </span>
-              </a>
-            </Link>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.google.be/maps/place/HH+Geeststraat+7,+2000+Antwerpen/@51.218846,4.3957787,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f6f69face41b:0x79551ef9613ddce8!8m2!3d51.2188427!4d4.3979674"
+              className="bg-brown text-cream rounded-full w-52 h-52 flex flex-col items-center justify-center	relative font-serif text-center font-bold leading-relaxed md:w-44 md:h-44 md:text-sm"
+            >
+              Heilige geeststraat 7,
+              <span className="font-mono">
+                2000 Antwerpen <br /> Belgium
+              </span>
+            </a>
           </div>
         </div>
       </main>
