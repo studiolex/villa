@@ -81,7 +81,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.google.com/maps/place/Vrijdagmarkt,+2000+Antwerpen/@51.2184599,4.3986174,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f6f6bf5d9d87:0x1ff78967db0fcf94!8m2!3d51.2184599!4d4.3986174"
-                  className="bg-brown text-cream rounded-full w-52 h-52 flex flex-col items-center justify-center	relative font-serif text-center font-bold xl:w-40 xl:h-40"
+                  className="bg-brown text-cream rounded-full w-52 h-52 flex flex-col items-center justify-center	relative font-serif text-center font-bold xl:w-40 xl:h-40 sm:text-sm sm:w-34 sm:h-34"
                 >
                   Vrijdagmarkt,
                   <span className="font-mono">Antwerpen</span>
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
         </article>
         <article className="mt-36 ">
-          <div className="w-[100rem] mx-auto mb-16 2xl:w-full 2xl:px-12 md:px-6">
+          <div className="w-[100rem] mx-auto mb-16 2xl:w-full 2xl:px-12 md:px-6 sm:px-2">
             <h2 className="text-brown text-5xl pb-16  font-black leading-tight flex flex-wrap sm:text-4xl  sm:text-center xs:text-3xl ss:text-2xl">
               The{" "}
               <span className="relative mx-2 mb-8">
