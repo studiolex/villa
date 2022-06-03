@@ -8,7 +8,7 @@ function Footer() {
     <>
       <footer className="">
         <div className="grid grid-cols-2  2xl:w-full lg:flex lg:flex-col md:gap-0">
-          <div className="bg-darkcream p-12 py-20 2xl:px-12 md:py-10 md:space-y-6 lg:py-20 md:px-6 ">
+          <div className="bg-darkcream p-12 py-20 2xl:px-12 md:py-10 md:space-y-6 lg:py-20 md:px-6 sm:px-2">
             <div className="w-[calc(50rem-3rem)] ml-auto  2xl:w-full">
               <div className="flex justify-between items-center mb-36 md:mb-0 md:pb-6 md:border-b-2 md:border-gold ">
                 <div className="">
@@ -90,7 +90,7 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div className="w-[calc(50rem-3rem)] p-12 mr-auto grid grid-cols-2 gap-6 py-20 2xl:w-full md:flex md:px-6 md:justify-around md:py-10 ">
+          <div className="w-[calc(50rem-3rem)] p-12 mr-auto grid grid-cols-2 gap-6 py-20 2xl:w-full md:flex md:px-6 md:justify-around md:py-10 sm:px-2">
             <div className="flex flex-col justify-between">
               <p className="text-gold py-6 font-serif">Contact</p>
               <p className="font-mono">

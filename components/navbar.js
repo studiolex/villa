@@ -37,7 +37,7 @@ function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-cream py-2 px-10 fixed z-10  w-full 2xl:w-full 2xl:px-12 md:px-6 md:py-4"
+      className="bg-cream py-2 px-10 fixed z-10  w-full 2xl:w-full 2xl:px-12 md:px-6 md:py-4 sm:px-2"
     >
       {({ open }) => (
         <>

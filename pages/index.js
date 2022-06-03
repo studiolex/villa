@@ -22,12 +22,12 @@ export default function Home() {
       <Navbar />
 
       <main className="">
-        <div className="hidden md:block relative">
+        <div className="hidden md:block relative md:mt-6">
           <MiniGallery />
         </div>
         <header
           id="home"
-          className="grid grid-cols-2 gap-12 w-[100rem] mx-auto py-12 h-screen md:flex md:flex-col 2xl:w-full 2xl:px-12 2xl:md:flex md:px-6 md:h-auto"
+          className="grid grid-cols-2 gap-12 w-[100rem] mx-auto py-12 h-screen md:flex md:flex-col 2xl:w-full 2xl:px-12 2xl:md:flex md:px-6 md:h-auto sm:px-2"
         >
           <div className="flex flex-col justify-between">
             <div className="h-full w-full">
@@ -97,8 +97,6 @@ export default function Home() {
                 className="w-full h-auto object-cover  "
                 src="/images/header_2.png"
                 alt="Entrance of Y&L Villa"
-                // width={1432}
-                // height={1394}
               />
             </div>
             <p className="border-brown border-b-2  pb-4 my-6 md:pb-20">
@@ -166,13 +164,13 @@ export default function Home() {
         </header>
         <article
           id="about"
-          className="w-[100rem] mx-auto py-32 2xl:px-12 2xl:w-full h-auto md:px-6"
+          className="w-[100rem] mx-auto py-32 2xl:px-12 2xl:w-full h-auto md:px-6 sm:px-2"
         >
           <div className="w-full h-auto ">
             <Image
               className="w-full h-full "
               src="/images/beautiful_house.png"
-              alt="Picture of Coil Slitting"
+              alt="Mast bedroom of Y&L Villa"
               width={3060}
               height={984}
             />
@@ -237,12 +235,12 @@ export default function Home() {
             </span>
             You&apos;re always welcome
           </h2>
-          <div className="my-20 2xl:pl-12 md:px-6">
+          <div className="my-20 2xl:pl-12 md:px-6 sm:px-2">
             <Gallery />{" "}
           </div>
         </article>
         <article id="prices" className="bg-brown  ">
-          <div className="py-36 text-cream w-[100rem] mx-auto 2xl:w-full   2xl:px-12 md:px-6 md:py-24 md:pb-10">
+          <div className="py-36 text-cream w-[100rem] mx-auto 2xl:w-full   2xl:px-12 md:px-6 md:py-24 md:pb-10 sm:px-2">
             <div className="pb-20">
               <h2 className="text-5xl font-black sm:text-4xl sm:text-center">
                 Price
@@ -267,7 +265,7 @@ export default function Home() {
                         (min. 2 nights)
                       </p>
                     </div>
-                    <p className="text-6xl font-sans font-black ">
+                    <p className="text-6xl font-sans font-black md:text-4xl">
                       €249
                       <span className="text-gold text-sm font-light">
                         / night
@@ -278,7 +276,7 @@ export default function Home() {
                     <div>
                       <p className="font-mono text-lg">Monday-Thursday</p>
                     </div>
-                    <p className="text-6xl font-sans font-black ">
+                    <p className="text-6xl font-sans font-black md:text-4xl">
                       €229
                       <span className="text-gold text-sm font-light">
                         / night
@@ -337,8 +335,8 @@ export default function Home() {
               <div>
                 <div className="mb-8">
                   <Image
-                    src="/images/beautiful_house.png"
-                    alt="Picture of Coil Slitting"
+                    src="/images/kitchen.png"
+                    alt="Kitchen of Y&L Villa"
                     width={3060}
                     height={984}
                   />
@@ -616,7 +614,7 @@ export default function Home() {
         </article>
         <article
           id="practical"
-          className="w-[100rem] mx-auto 2xl:w-full 2xl:px-12 py-36 md:px-6 md:py-24 my-2"
+          className="w-[100rem] mx-auto 2xl:w-full 2xl:px-12 py-36 md:px-6 md:py-24 my-2 sm:px-2"
         >
           <div>
             <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-4xl">
