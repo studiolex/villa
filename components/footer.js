@@ -139,7 +139,7 @@ function Footer() {
               </a>
             </div>
             <div className="flex flex-col justify-between">
-              <p className="text-gold py-6 font-serif">Linda Vogelenzang</p>
+              <p className="text-gold py-6 font-serif">Linda Vogelzang</p>
               <div className="font-mono flex flex-col">
                 <a
                   target="_blank"
