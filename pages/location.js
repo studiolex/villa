@@ -25,7 +25,7 @@ export default function Home() {
 
       <main>
         <article className="pt-36 w-[100rem] mx-auto 2xl:w-full 2xl:px-12 md:px-6 sm:px-2">
-          <h1 className="font-sans text-5xl uppercase font-black text-brown tracking-widest sm:text-4xl">
+          <h1 className="font-sans text-5xl uppercase font-black text-brown tracking-widest sm:text-4xl xs:text-3xl ss:text-2xl">
             <span className="font-light">Heilige geeststraat 7,</span> Antwerpen
           </h1>
           <div>
@@ -44,7 +44,7 @@ export default function Home() {
                 including <span className="italic font-medium">cycling</span>.
                 Bikes can be rented at the accommodation.
               </p>
-              <ul className="list-none mt-8 font-medium leading-loose italic grid grid-cols-2 text-brown lg:flex lg:flex-col  ">
+              <ul className="list-none mt-8 font-medium  italic grid grid-cols-2 text-brown lg:flex lg:flex-col  ">
                 <div className="flex items-center space-x-2 my-2">
                   <Church />
                   <li className="">200 meters from the Our Lady Cathedral </li>
