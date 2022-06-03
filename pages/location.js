@@ -24,13 +24,13 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <article className="pt-36 w-[100rem] mx-auto 2xl:w-full 2xl:px-12 md:px-6 sm:px-2">
+        <article className="pt-36 w-[100rem] mx-auto 2xl:w-full 2xl:px-12 md:px-6 sm:px-4 xs:px-2">
           <h1 className="font-sans text-5xl uppercase font-black text-brown tracking-widest sm:text-4xl xs:text-3xl ss:text-2xl">
             <span className="font-light">Heilige geeststraat 7,</span> Antwerpen
           </h1>
           <div>
             <div className="border-b-2 border-gold pb-10 my-16 w-[70%] xl:w-[75%] md:w-full md:pb-20 md:mb-6 ">
-              <p>
+              <p className="pb-12">
                 Villa Y&L, which is located{" "}
                 <span className="italic font-medium">less than 50 meters</span>{" "}
                 from ‘Vrijdagmarkt’, provides a wonderful location where you can
@@ -76,7 +76,7 @@ export default function Home() {
                   height={984}
                 />
               </div>
-              <div className="absolute right-[10%] -top-24 mb-24 xl:right-[4%] md:right-[2%]">
+              <div className="absolute right-[10%] -top-24 mb-24 xl:right-[4%] md:right-0">
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -91,12 +91,12 @@ export default function Home() {
           </div>
         </article>
         <article className="mt-36 ">
-          <div className="w-[100rem] mx-auto mb-16 2xl:w-full 2xl:px-12 md:px-6 sm:px-2">
+          <div className="w-[100rem] mx-auto mb-16 2xl:w-full 2xl:px-12 md:px-6 sm:px-4 xs:px-2">
             <h2 className="text-brown text-5xl pb-16  font-black leading-tight flex flex-wrap sm:text-4xl  sm:text-center xs:text-3xl ss:text-2xl">
               The{" "}
               <span className="relative mx-2 mb-8">
-                <UpperCircle className="absolute -mt-6" /> area{" "}
-                <DownCircle className="absolute" />
+                <UpperCircle className="absolute -mt-6 sm:scale-[80%]" /> area{" "}
+                <DownCircle className="absolute sm:scale-[80%]" />
               </span>
               around
               <span className="italic font-light"> Y&L Villa.</span>
@@ -106,7 +106,7 @@ export default function Home() {
               shops, restaurants and bars, all what you need.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-12 items-center  mb-20 w-[100rem] mx-auto 2xl:w-full 2xl:px-12 md:px-6 md:flex md:flex-col md:items-start">
+          <div className="grid grid-cols-2 gap-12 items-center  mb-20 w-[100rem] mx-auto 2xl:w-full 2xl:px-12 md:px-6 md:flex md:flex-col md:items-start sm:px-4 xs:px-2">
             <div className="w-full">
               <div className="flex items-center border-b-2 border-gold pb-4 my-6">
                 <Cultural />
@@ -140,21 +140,25 @@ export default function Home() {
                 </ul>
               </div>
             </div>
-            <Image
-              src="/images/cultural.png"
-              alt="Cultural locations in Antwerp"
-              width={650}
-              height={699}
-            />
+            <div className="md:mx-auto">
+              <Image
+                src="/images/cultural.png"
+                alt="Cultural locations in Antwerp"
+                width={650}
+                height={699}
+              />
+            </div>
           </div>
           <div className="bg-darkcream">
             <div className="w-[100rem] mx-auto grid grid-cols-2 gap-12 items-center  py-20  2xl:w-full 2xl:px-12 md:px-6 md:flex md:flex-col-reverse md:items-start md:pt-10">
-              <Image
-                src="/images/dining.png"
-                alt="Images of dining places in Antwerp"
-                width={650}
-                height={735}
-              />
+              <div className="md:mx-auto">
+                <Image
+                  src="/images/dining.png"
+                  alt="Images of dining places in Antwerp"
+                  width={650}
+                  height={735}
+                />
+              </div>
               <div className="w-full">
                 <div className="flex items-center border-b-2 border-gold pb-4 my-6">
                   <Dining />

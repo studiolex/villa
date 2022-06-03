@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <header
           id="home"
-          className="grid grid-cols-2 gap-12 w-[100rem] mx-auto py-12 h-screen md:flex md:flex-col 2xl:w-full 2xl:px-12 2xl:md:flex md:px-6 md:h-auto sm:px-2 sm:pb-0"
+          className="grid grid-cols-2 gap-12 w-[100rem] mx-auto py-12 h-screen md:flex md:flex-col 2xl:w-full 2xl:px-12 2xl:md:flex md:px-6 md:h-auto sm:px-4 xs:px-2 sm:pb-0"
         >
           <div className="flex flex-col justify-between">
             <div className="h-full w-full">
@@ -171,7 +171,7 @@ export default function Home() {
         </header>
         <article
           id="about"
-          className="w-[100rem] mx-auto py-20 2xl:px-12 2xl:w-full h-auto md:px-6 sm:px-2 mt-10 "
+          className="w-[100rem] mx-auto py-20 2xl:px-12 2xl:w-full h-auto md:px-6 sm:px-4 xs:px-2 mt-10 "
         >
           <div className="w-full h-auto ">
             <Image
@@ -187,12 +187,12 @@ export default function Home() {
               <span className="font-black not-italic">
                 A{" "}
                 <span className="relative">
-                  <Wave className="absolute -mt-2 top-0 left-10" />
+                  <Wave className="absolute -mt-2 top-0 left-10 sm:scale-[80%] sm:left-5" />
                   Beautiful
                 </span>{" "}
                 House in the heart of{" "}
               </span>{" "}
-              <br></br>the Historical Centre of Antwerp
+              <br className="sm:hidden"></br>the Historical Centre of Antwerp
             </h2>
             <div className="grid grid-cols-2 gap-12 lg:flex lg:flex-col ">
               <p>
@@ -244,22 +244,22 @@ export default function Home() {
             <span className="font-black not-italic flex justify-center">
               Take a l
               <span className="relative">
-                <Eye className="absolute " />o
+                <Eye className="absolute sm:scale-[75%] sm:-left-1" />o
               </span>
               <span className="relative">
                 {" "}
-                <Eye className="absolute " />o
+                <Eye className="absolute sm:scale-[75%] sm:-left-1" />o
               </span>
               k
             </span>
             You&apos;re always welcome
           </h2>
-          <div className="my-20 2xl:pl-12 md:px-6 sm:px-2 sm:my-10">
+          <div className="my-20 2xl:pl-12 md:px-6 sm:px-4 xs:px-2 sm:my-10">
             <Gallery />{" "}
           </div>
         </article>
         <article id="prices" className="bg-brown  ">
-          <div className="py-36 text-cream w-[100rem] mx-auto 2xl:w-full   2xl:px-12 md:px-6 md:py-24 md:pb-10 sm:px-2">
+          <div className="py-36 text-cream w-[100rem] mx-auto 2xl:w-full   2xl:px-12 md:px-6 md:py-24 md:pb-10 sm:px-4 xs:px-2">
             <div className="pb-20">
               <h2 className="text-5xl font-black sm:text-4xl sm:text-center xs:text-3xl ss:text-2xl">
                 Price
@@ -638,7 +638,8 @@ export default function Home() {
           <div>
             <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-4xl xs:text-3xl ss:text-2xl ">
               <span className="font-black cursor-not-italic relative">
-                Practical <Wave className="absolute left-[35%]" />
+                Practical{" "}
+                <Wave className="absolute left-[35%] sm:scale-[70%]" />
               </span>{" "}
               information
             </h2>

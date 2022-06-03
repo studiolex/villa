@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
 
       <main className={styles.main}>
-        <article className="pw-[100rem] mx-auto pt-36  pb-20 leading-relaxed 2xl:w-full 2xl:px-12 md:px-6 md:pb-10 sm:px-2">
+        <article className="pw-[100rem] mx-auto pt-36  pb-20 leading-relaxed 2xl:w-full 2xl:px-12 md:px-6 md:pb-10 sm:px-4 xs:px-2">
           <h1 className="font-sans font-black text-center text-5xl uppercase text-brown tracking-widest leading-tight sm:text-4xl">
             Contact
           </h1>
@@ -98,7 +98,7 @@ export default function Home() {
               height={372}
             />
           </div>
-          <div className="absolute right-[10%] -top-24 mb-24 md:right-[4%]">
+          <div className="absolute right-[10%] -top-32 mb-24 md:right-2">
             <a
               target="_blank"
               rel="noopener noreferrer"

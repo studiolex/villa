@@ -36,7 +36,7 @@ function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="bg-cream py-2 px-10 fixed z-10  w-full 2xl:w-full 2xl:px-12 md:px-6 md:py-4 sm:px-2 md:shadow-lg
+      className="bg-cream py-2 px-10 fixed z-10  w-full 2xl:w-full 2xl:px-12 md:px-6 md:py-4 sm:px-4 xs:px-2 md:shadow-lg
 
       "
     >
@@ -70,12 +70,12 @@ function Navbar() {
             </div>
             {/* Menu Desktop */}
             <div className="block md:hidden">
-              <div className="">
+              <div className="ml-16">
                 {path == "/" && (
                   <Scrollspy
                     items={["home", "about", "gallery", "prices", "practical"]}
                     currentClassName="active"
-                    className="flex space-x-4  "
+                    className="flex space-x-4 "
                   >
                     {navigation.map((item) => (
                       <a

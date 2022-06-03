@@ -7,11 +7,11 @@ import Mail from "../public/images/mail.svg";
 function Contact() {
   return (
     <article className="bg-brown ">
-      <div className="w-[100rem] py-12 mx-auto 2xl:w-full 2xl:px-12 md:px-6 md:py-16 sm:px-2 ">
+      <div className="w-[100rem] py-12 mx-auto 2xl:w-full 2xl:px-12 md:px-6 md:py-16 sm:px-4 xs:px-2 ">
         <div className="grid grid-cols-2 gap-6 lg:flex lg:flex-col">
           <div className="flex flex-col justify-between py-4 sm:pb-10 ">
             <div className="leading-tight sm:flex sm:flex-col sm:items-center">
-              <Wave className="md:mb-4" />
+              <Wave className="md:mb-4 sm:scale-[70%]" />
               <h2 className="text-5xl italic text-cream  pb-16  leading-tight sm:text-4xl sm:pb-6 sm:text-center xs:text-3xl ss:text-2xl">
                 <span className="font-black not-italic">
                   Are you interested?
