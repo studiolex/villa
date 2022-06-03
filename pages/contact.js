@@ -26,7 +26,7 @@ export default function Home() {
             Get in touch
           </h2>
 
-          <div className="flex mx-auto w-full justify-center items-center space-x-36 py-28 2xl:justify-between 2xl:space-x-3 md:grid md:grid-cols-2 md:gap-y-10 sm:flex sm:flex-wrap sm:justify-start md:border-b-2 md:border-brown ">
+          <div className="flex mx-auto w-full justify-center items-center space-x-36 py-28 2xl:justify-between 2xl:space-x-3 md:grid md:grid-cols-2 md:gap-y-10 sm:flex sm:flex-wrap sm:justify-start md:border-b-2 md:border-brown md:py-24 md:pt-16 ">
             <div className=" sm:hidden">
               <Image
                 src="/images/linda.png"
