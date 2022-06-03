@@ -12,7 +12,7 @@ function Contact() {
           <div className="flex flex-col justify-between py-4 sm:pb-10 ">
             <div className="leading-tight sm:flex sm:flex-col sm:items-center">
               <Wave className="md:mb-4" />
-              <h2 className="text-5xl italic text-cream  pb-16  leading-tight sm:text-4xl sm:pb-6 sm:text-center sm:text-3xl">
+              <h2 className="text-5xl italic text-cream  pb-16  leading-tight sm:text-4xl sm:pb-6 sm:text-center xs:text-3xl ss:text-2xl">
                 <span className="font-black not-italic">
                   Are you interested?
                 </span>{" "}

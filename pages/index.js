@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
 
       <main className="">
-        <div className="hidden md:block relative md:pt-6">
+        <div className="hidden md:block relative md:pt-16">
           <MiniGallery />
         </div>
         <header
@@ -42,7 +42,7 @@ export default function Home() {
               <div className="relative mb-12 hidden md:flex md:flex-row-reverse md:justify-between  -mt-32 ">
                 <div className="relative">
                   <Link className="" href="/contact">
-                    <a className="bg-brown text-cream rounded-full flex items-center justify-center	relative font-serif uppercase font-bold w-44 h-44 sm:w-36 sm:h-36">
+                    <a className="bg-brown text-cream rounded-full flex items-center justify-center	relative font-serif uppercase font-bold w-44 h-44 sm:text-sm sm:w-32 sm:h-32">
                       Get in touch
                     </a>
                   </Link>
@@ -183,7 +183,7 @@ export default function Home() {
             />
           </div>
           <div className="w-[100rem] mx-auto 2xl:w-full ">
-            <h2 className="text-brown text-5xl pb-20 mt-24 italic leading-tight sm:text-3xl  sm:text-center xs:text-2xl ss:text-xl">
+            <h2 className="text-brown text-5xl pb-20 mt-24 italic leading-tight sm:text-4xl  sm:text-center xs:text-3xl ss:text-2xl">
               <span className="font-black not-italic">
                 A{" "}
                 <span className="relative">
@@ -240,7 +240,7 @@ export default function Home() {
           id="gallery"
           className="pt-28 pb-20 bg-darkcream relative sm:py-10 sm:pt-24 my-2"
         >
-          <h2 className="text-brown text-5xl italic  leading-tight text-center sm:text-3xl xs:text-2xl ss:text-xl ">
+          <h2 className="text-brown text-5xl italic  leading-tight text-center sm:text-4xl xs:text-3xl ss:text-2xl ">
             <span className="font-black not-italic flex justify-center">
               Take a l
               <span className="relative">
@@ -261,7 +261,7 @@ export default function Home() {
         <article id="prices" className="bg-brown  ">
           <div className="py-36 text-cream w-[100rem] mx-auto 2xl:w-full   2xl:px-12 md:px-6 md:py-24 md:pb-10 sm:px-2">
             <div className="pb-20">
-              <h2 className="text-5xl font-black sm:text-3xl sm:text-center xs:text-2xl ss:text-xl">
+              <h2 className="text-5xl font-black sm:text-4xl sm:text-center xs:text-3xl ss:text-2xl">
                 Price
                 <span className="relative">
                   {/* <Line className="absolute left-[50%] top-[50%] -mt-5 " /> */}
@@ -636,7 +636,7 @@ export default function Home() {
           className="w-[100rem] mx-auto 2xl:w-full 2xl:px-12 py-36 md:px-6 md:py-24 my-2 sm:px-2"
         >
           <div>
-            <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-3xl xs:text-2xl ss:text-xl ">
+            <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-4xl xs:text-3xl ss:text-2xl ">
               <span className="font-black cursor-not-italic relative">
                 Practical <Wave className="absolute left-[35%]" />
               </span>{" "}

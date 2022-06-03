@@ -92,7 +92,7 @@ export default function Home() {
         </article>
         <article className="mt-36 ">
           <div className="w-[100rem] mx-auto mb-16 2xl:w-full 2xl:px-12 md:px-6">
-            <h2 className="text-brown text-5xl pb-16  font-black leading-tight flex flex-wrap sm:text-4xl  sm:text-center xs:text-2xl ss:text-xl">
+            <h2 className="text-brown text-5xl pb-16  font-black leading-tight flex flex-wrap sm:text-4xl  sm:text-center xs:text-3xl ss:text-2xl">
               The{" "}
               <span className="relative mx-2 mb-8">
                 <UpperCircle className="absolute -mt-6" /> area{" "}

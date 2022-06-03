@@ -22,7 +22,7 @@ export default function Home() {
           <h1 className="font-sans font-black text-center text-5xl uppercase text-brown tracking-widest leading-tight sm:text-4xl">
             Contact
           </h1>
-          <h2 className="font-sans text-5xl text-brown italic text-center -ml-2 leading-tight sm:text-3xl xs:text-2xl ss:text-xl">
+          <h2 className="font-sans text-5xl text-brown italic text-center -ml-2 leading-tight sm:text-4xl xs:text-3xl ss:text-2xl">
             Get in touch
           </h2>
 
