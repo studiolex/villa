@@ -9,6 +9,9 @@ import UpperCircle from "../public/images/upper_circle.svg";
 import DownCircle from "../public/images/down_circle.svg";
 import Cultural from "../public/images/cultural.svg";
 import Dining from "../public/images/dining.svg";
+import Church from "../public/images/church.svg";
+import Shopping from "../public/images/shopping.svg";
+import Airport from "../public/images/airport.svg";
 
 export default function Home() {
   return (
@@ -21,23 +24,48 @@ export default function Home() {
       <Navbar />
 
       <main>
-        <article className="pt-36 w-[100rem] mx-auto 2xl:w-full 2xl:px-12 md:px-6">
+        <article className="pt-36 w-[100rem] mx-auto 2xl:w-full 2xl:px-12 md:px-6 sm:px-2">
           <h1 className="font-sans text-5xl uppercase font-black text-brown tracking-widest sm:text-4xl">
             <span className="font-light">Heilige geeststraat 7,</span> Antwerpen
           </h1>
           <div>
-            <div className="border-b-2 border-gold pb-4 my-16 w-[50%] xl:w-[75%] md:w-full md:pb-20 md:mb-6 ">
+            <div className="border-b-2 border-gold pb-10 my-16 w-[70%] xl:w-[75%] md:w-full md:pb-20 md:mb-6 ">
               <p>
-                Villa Y&L, which is located less than 50 meters from
-                ‘Vrijdagmarkt’, provides a wonderful location where you can
-                enjoy the local market every Friday.
+                Villa Y&L, which is located{" "}
+                <span className="italic font-medium">less than 50 meters</span>{" "}
+                from ‘Vrijdagmarkt’, provides a wonderful location where you can
+                enjoy the{" "}
+                <span className="italic font-medium">
+                  local market every Friday
+                </span>
+                .
                 <br /> <br />
                 In the surrounding area you can have many fun activities
-                including cycling. Bikes can be rented at the accommodation. Y &
-                L Villa is 200 meters from the Our Lady Cathedral and 800 meters
-                from the Meir. The Antwerp International Airport is 5km away &
-                Brussels international Airport is only 37km away!
+                including <span className="italic font-medium">cycling</span>.
+                Bikes can be rented at the accommodation.
               </p>
+              <ul className="list-none mt-8 font-medium leading-loose italic grid grid-cols-2 text-brown lg:flex lg:flex-col  ">
+                <div className="flex items-center space-x-2 my-2">
+                  <Church />
+                  <li className="">200 meters from the Our Lady Cathedral </li>
+                </div>
+                <div className="flex items-center space-x-2 my-2">
+                  <Shopping />
+                  <li className="">800 meters from the Meir. </li>
+                </div>
+                <div className="flex items-center space-x-2 my-2">
+                  <Airport />
+                  <li className="">
+                    The Antwerp International Airport is 5km away{" "}
+                  </li>
+                </div>
+                <div className="flex items-center space-x-2 my-2">
+                  <Airport />
+                  <li className="">
+                    Brussels international Airport is only 37km away!{" "}
+                  </li>
+                </div>
+              </ul>
             </div>
             <div className="relative">
               <div className="relative ">
@@ -53,7 +81,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.google.com/maps/place/Vrijdagmarkt,+2000+Antwerpen/@51.2184599,4.3986174,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f6f6bf5d9d87:0x1ff78967db0fcf94!8m2!3d51.2184599!4d4.3986174"
-                  className="bg-brown text-cream rounded-full w-52 h-52 flex flex-col items-center justify-center	relative font-serif text-center font-bold xl:w-44 xl:h-44"
+                  className="bg-brown text-cream rounded-full w-52 h-52 flex flex-col items-center justify-center	relative font-serif text-center font-bold xl:w-40 xl:h-40"
                 >
                   Vrijdagmarkt,
                   <span className="font-mono">Antwerpen</span>
@@ -64,7 +92,7 @@ export default function Home() {
         </article>
         <article className="mt-36 ">
           <div className="w-[100rem] mx-auto mb-16 2xl:w-full 2xl:px-12 md:px-6">
-            <h2 className="text-brown text-5xl pb-16  font-black leading-tight flex flex-wrap sm:text-4xl sm:text-center">
+            <h2 className="text-brown text-5xl pb-16  font-black leading-tight flex flex-wrap sm:text-4xl  sm:text-center xs:text-2xl ss:text-xl">
               The{" "}
               <span className="relative mx-2 mb-8">
                 <UpperCircle className="absolute -mt-6" /> area{" "}

@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <header
           id="home"
-          className="grid grid-cols-2 gap-12 w-[100rem] mx-auto py-12 h-screen md:flex md:flex-col 2xl:w-full 2xl:px-12 2xl:md:flex md:px-6 md:h-auto sm:px-2"
+          className="grid grid-cols-2 gap-12 w-[100rem] mx-auto py-12 h-screen md:flex md:flex-col 2xl:w-full 2xl:px-12 2xl:md:flex md:px-6 md:h-auto sm:px-2 sm:pb-0"
         >
           <div className="flex flex-col justify-between">
             <div className="h-full w-full">
@@ -39,7 +39,43 @@ export default function Home() {
                   alt="Y&L Villa Welcome Gift"
                 />
               </div>
-              <h1 className="text-brown text-right uppercase font-sans font-black text-8xl mt-6 leading-tight tracking-widest md:text-6xl md:flex md:justify-center md:mt-0 sm:text-5xl">
+              <div className="relative mb-12 hidden md:flex md:flex-row-reverse md:justify-between  -mt-32 ">
+                <div className="relative">
+                  <Link className="" href="/contact">
+                    <a className="bg-brown text-cream rounded-full flex items-center justify-center	relative font-serif uppercase font-bold w-44 h-44 sm:w-36 sm:h-36">
+                      Get in touch
+                    </a>
+                  </Link>
+                </div>
+                <div className=" ">
+                  <div className=" flex items-center border-2 border-brown rounded-full py-2 px-4 pr-6 bg-cream z-0 ">
+                    <div className="mx-4">
+                      <svg
+                        width="6"
+                        height="24"
+                        viewBox="0 0 6 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.42047 17.39C4.12047 17.45 3.73047 17.48 3.25047 17.48C2.79047 17.48 2.23047 17.43 1.57047 17.33L0.850469 1.34C1.43047 1.28 2.06047 1.25 2.74047 1.25C3.44047 1.25 4.14047 1.33 4.84047 1.49L4.42047 17.39ZM1.00047 19.28C1.78047 19.22 2.44047 19.19 2.98047 19.19C3.54047 19.19 4.22047 19.28 5.02047 19.46C5.10047 20.04 5.14047 20.57 5.14047 21.05C5.14047 21.51 5.05047 22.19 4.87047 23.09C4.09047 23.15 3.42047 23.18 2.86047 23.18C2.32047 23.18 1.65047 23.09 0.850469 22.91C0.770469 22.33 0.730469 21.81 0.730469 21.35C0.730469 20.87 0.820469 20.18 1.00047 19.28Z"
+                          fill="#B19C61"
+                        />
+                        <path
+                          fillRule="evenodd"
+                          clipRule="evenodd"
+                          d="M1.37152 1.79635L2.05127 16.8923C2.51796 16.9515 2.91689 16.98 3.25047 16.98C3.51185 16.98 3.73831 16.9707 3.93183 16.9534L4.32959 1.89527C3.79896 1.7983 3.26937 1.75 2.74047 1.75C2.25622 1.75 1.79999 1.76555 1.37152 1.79635ZM0.79902 0.842653C1.39864 0.780624 2.04603 0.75 2.74047 0.75C3.47892 0.75 4.21628 0.834433 4.95188 1.00257L5.35111 1.09382L4.90976 17.802L4.51853 17.8803C4.17343 17.9493 3.74708 17.98 3.25047 17.98C2.75698 17.98 2.17035 17.9266 1.49557 17.8244L1.08945 17.7628L0.329753 0.891197L0.79902 0.842653ZM1.41918 19.751C1.29042 20.4537 1.23047 20.9828 1.23047 21.35C1.23047 21.6911 1.25394 22.0725 1.30205 22.4951C1.92706 22.6207 2.44471 22.68 2.86047 22.68C3.31226 22.68 3.84233 22.6598 4.45189 22.6189C4.58076 21.918 4.64047 21.3994 4.64047 21.05C4.64047 20.6922 4.61688 20.3008 4.56875 19.875C3.942 19.7496 3.41411 19.69 2.98047 19.69C2.5458 19.69 2.02586 19.7101 1.41918 19.751ZM0.96212 18.7815C1.74977 18.7209 2.42341 18.69 2.98047 18.69C3.59011 18.69 4.30919 18.7875 5.13023 18.9722L5.46842 19.0483L5.51578 19.3917C5.59825 19.9896 5.64047 20.5428 5.64047 21.05C5.64047 21.5613 5.54218 22.281 5.36076 23.1881L5.28648 23.5595L4.90882 23.5885C4.12064 23.6492 3.43716 23.68 2.86047 23.68C2.26978 23.68 1.56023 23.5822 0.740713 23.3978L0.402523 23.3217L0.355158 22.9783C0.272833 22.3815 0.230469 21.838 0.230469 21.35C0.230469 20.8196 0.328432 20.0907 0.510178 19.1819L0.584462 18.8105L0.96212 18.7815Z"
+                          fill="#B19C61"
+                        />
+                      </svg>
+                    </div>
+                    <p className="text-gold font-serif text-s sm:text-xs">
+                      Book directly, for a free breakfast basket
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <h1 className="text-brown text-right uppercase font-sans font-black text-8xl mt-6 leading-tight tracking-widest sm:text-6xl md:flex md:justify-center md:mt-0 xs:text-5xl">
                 Y&L <br /> <span className="font-light">Villa</span>
               </h1>
             </div>
@@ -52,7 +88,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="absolute -bottom-8 left-16 flex items-center ml-8  ">
-                <div className="z-2">
+                <div className="z-2 lg:hidden">
                   {" "}
                   <Image
                     src="/images/breakfast.png"
@@ -91,7 +127,7 @@ export default function Home() {
             </div>
           </div>
           <div className=" w-full h-full flex flex-col  ">
-            <div className="w-full min-h-[60%] h-full relative md:h-unset md:hidden">
+            <div className="w-full min-h-[60%] h-full relative md:h-unset ">
               <Image
                 layout="fill"
                 className="w-full h-auto object-cover  "
@@ -100,13 +136,16 @@ export default function Home() {
               />
             </div>
             <p className="border-brown border-b-2  pb-4 my-6 md:pb-20">
-              An ancient traditional townhouse, completely renovated with a lot
-              of style and elegancy. <br /> <br /> Located in Antwerp, this
-              holiday home is situated 100 metres from Plantin-Moretus Museum.
-              The holiday home is 200 metres from Groenplaats Antwerp. Wi-Fi is
-              available in all rooms. This service is free.
+              An ancient <span className="italic font-medium">traditional</span>{" "}
+              townhouse,{" "}
+              <span className="italic font-medium">completely renovated</span>{" "}
+              with a lot of style and elegancy. <br /> <br /> Located in
+              Antwerp, this holiday home is situated 100 metres from
+              Plantin-Moretus Museum. The holiday home is 200 metres from
+              Groenplaats Antwerp. Wi-Fi is available in all rooms. This service
+              is free.
             </p>
-            <div className="flex items-center mb-4">
+            <div className="flex items-center mb-4 ">
               <Link className="" href="/#about">
                 <a className="text-brown uppercase pr-2 font-serif">
                   Read more
@@ -128,47 +167,11 @@ export default function Home() {
                 />
               </svg>
             </div>
-            <div className="relative mb-6 hidden md:flex md:flex-row-reverse items-end">
-              <div className="relative">
-                <Link className="" href="/contact">
-                  <a className="bg-brown text-cream rounded-full flex items-center justify-center	relative font-serif uppercase font-bold w-36 h-36">
-                    Get in touch
-                  </a>
-                </Link>
-              </div>
-              <div className=" ">
-                <div className="flex items-center border-2 border-brown rounded-full py-2 px-4 pr-6 bg-cream -ml-8 z-0 ">
-                  <div className="mx-4">
-                    <svg
-                      width="6"
-                      height="24"
-                      viewBox="0 0 6 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M4.42047 17.39C4.12047 17.45 3.73047 17.48 3.25047 17.48C2.79047 17.48 2.23047 17.43 1.57047 17.33L0.850469 1.34C1.43047 1.28 2.06047 1.25 2.74047 1.25C3.44047 1.25 4.14047 1.33 4.84047 1.49L4.42047 17.39ZM1.00047 19.28C1.78047 19.22 2.44047 19.19 2.98047 19.19C3.54047 19.19 4.22047 19.28 5.02047 19.46C5.10047 20.04 5.14047 20.57 5.14047 21.05C5.14047 21.51 5.05047 22.19 4.87047 23.09C4.09047 23.15 3.42047 23.18 2.86047 23.18C2.32047 23.18 1.65047 23.09 0.850469 22.91C0.770469 22.33 0.730469 21.81 0.730469 21.35C0.730469 20.87 0.820469 20.18 1.00047 19.28Z"
-                        fill="#B19C61"
-                      />
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M1.37152 1.79635L2.05127 16.8923C2.51796 16.9515 2.91689 16.98 3.25047 16.98C3.51185 16.98 3.73831 16.9707 3.93183 16.9534L4.32959 1.89527C3.79896 1.7983 3.26937 1.75 2.74047 1.75C2.25622 1.75 1.79999 1.76555 1.37152 1.79635ZM0.79902 0.842653C1.39864 0.780624 2.04603 0.75 2.74047 0.75C3.47892 0.75 4.21628 0.834433 4.95188 1.00257L5.35111 1.09382L4.90976 17.802L4.51853 17.8803C4.17343 17.9493 3.74708 17.98 3.25047 17.98C2.75698 17.98 2.17035 17.9266 1.49557 17.8244L1.08945 17.7628L0.329753 0.891197L0.79902 0.842653ZM1.41918 19.751C1.29042 20.4537 1.23047 20.9828 1.23047 21.35C1.23047 21.6911 1.25394 22.0725 1.30205 22.4951C1.92706 22.6207 2.44471 22.68 2.86047 22.68C3.31226 22.68 3.84233 22.6598 4.45189 22.6189C4.58076 21.918 4.64047 21.3994 4.64047 21.05C4.64047 20.6922 4.61688 20.3008 4.56875 19.875C3.942 19.7496 3.41411 19.69 2.98047 19.69C2.5458 19.69 2.02586 19.7101 1.41918 19.751ZM0.96212 18.7815C1.74977 18.7209 2.42341 18.69 2.98047 18.69C3.59011 18.69 4.30919 18.7875 5.13023 18.9722L5.46842 19.0483L5.51578 19.3917C5.59825 19.9896 5.64047 20.5428 5.64047 21.05C5.64047 21.5613 5.54218 22.281 5.36076 23.1881L5.28648 23.5595L4.90882 23.5885C4.12064 23.6492 3.43716 23.68 2.86047 23.68C2.26978 23.68 1.56023 23.5822 0.740713 23.3978L0.402523 23.3217L0.355158 22.9783C0.272833 22.3815 0.230469 21.838 0.230469 21.35C0.230469 20.8196 0.328432 20.0907 0.510178 19.1819L0.584462 18.8105L0.96212 18.7815Z"
-                        fill="#B19C61"
-                      />
-                    </svg>
-                  </div>
-                  <p className="text-gold font-serif text-s sm:text-xs">
-                    Book directly, for a free breakfast basket
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </header>
         <article
           id="about"
-          className="w-[100rem] mx-auto py-32 2xl:px-12 2xl:w-full h-auto md:px-6 sm:px-2"
+          className="w-[100rem] mx-auto py-20 2xl:px-12 2xl:w-full h-auto md:px-6 sm:px-2 mt-10 "
         >
           <div className="w-full h-auto ">
             <Image
@@ -180,7 +183,7 @@ export default function Home() {
             />
           </div>
           <div className="w-[100rem] mx-auto 2xl:w-full ">
-            <h2 className="text-brown text-5xl pb-20 mt-24 italic leading-tight sm:text-3xl  sm:text-center">
+            <h2 className="text-brown text-5xl pb-20 mt-24 italic leading-tight sm:text-3xl  sm:text-center xs:text-2xl ss:text-xl">
               <span className="font-black not-italic">
                 A{" "}
                 <span className="relative">
@@ -193,14 +196,22 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-2 gap-12 lg:flex lg:flex-col ">
               <p>
-                You will find a dining area, living room and a kitchen. Towels
-                and bed linen are provided at this self-catering property (Fresh
-                sandwiches available on request every morning).
+                You will find a{" "}
+                <span className="italic font-medium">dining area</span>, living
+                room and a <span className="italic font-medium">kitchen</span>.
+                Towels and bed linen are provided at this self-catering property
+                (
+                <span className="italic font-medium">
+                  Fresh sandwiches available on request every morning
+                </span>
+                ).
                 <br /> <br />
-                The master bedroom has its own bathroom with bath. The 2 other
-                rooms have a desk and a shared bathroom. Its perfect for a
-                family, friends or business stay for a short or long term in
-                Antwerp.
+                <span className="italic font-medium">
+                  The master bedroom has its own bathroom with bath.
+                </span>{" "}
+                The 2 other rooms have a desk and a shared bathroom. Its perfect
+                for a family, friends or business stay for a short or long term
+                in Antwerp.
               </p>
               <div className="flex items-center justify-center space-x-10 sm:mt-10 lg:space-x-24 md:space-x-0 md:justify-around">
                 <div>
@@ -229,7 +240,7 @@ export default function Home() {
           id="gallery"
           className="pt-28 pb-20 bg-darkcream relative sm:py-10 sm:pt-24 my-2"
         >
-          <h2 className="text-brown text-5xl italic  leading-tight text-center sm:text-3xl ">
+          <h2 className="text-brown text-5xl italic  leading-tight text-center sm:text-3xl xs:text-2xl ss:text-xl ">
             <span className="font-black not-italic flex justify-center">
               Take a l
               <span className="relative">
@@ -250,7 +261,7 @@ export default function Home() {
         <article id="prices" className="bg-brown  ">
           <div className="py-36 text-cream w-[100rem] mx-auto 2xl:w-full   2xl:px-12 md:px-6 md:py-24 md:pb-10 sm:px-2">
             <div className="pb-20">
-              <h2 className="text-5xl font-black sm:text-3xl  sm:text-center">
+              <h2 className="text-5xl font-black sm:text-3xl sm:text-center xs:text-2xl ss:text-xl">
                 Price
                 <span className="relative">
                   {/* <Line className="absolute left-[50%] top-[50%] -mt-5 " /> */}
@@ -625,7 +636,7 @@ export default function Home() {
           className="w-[100rem] mx-auto 2xl:w-full 2xl:px-12 py-36 md:px-6 md:py-24 my-2 sm:px-2"
         >
           <div>
-            <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-3xl ">
+            <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-3xl xs:text-2xl ss:text-xl ">
               <span className="font-black cursor-not-italic relative">
                 Practical <Wave className="absolute left-[35%]" />
               </span>{" "}
@@ -638,8 +649,12 @@ export default function Home() {
               <div>
                 <p>
                   Public Parking space available around the corner (5 min walk
-                  distance from the house) at Parking Brabo Kammenstraat
-                  Antwerp/ Grote markt/Scheldenkaaien. <br />
+                  distance from the house) at{" "}
+                  <span className="italic font-medium">
+                    Parking Brabo Kammenstraat Antwerp/ Grote
+                    markt/Scheldenkaaien.{" "}
+                  </span>
+                  <br />
                   <br />
                   Payment is to be made cash or by credit card on arrival, or by
                   bank transfer prior to arrival. For a stay longer then 7

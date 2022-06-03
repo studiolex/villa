@@ -22,11 +22,11 @@ export default function Home() {
           <h1 className="font-sans font-black text-center text-5xl uppercase text-brown tracking-widest leading-tight sm:text-4xl">
             Contact
           </h1>
-          <h2 className="font-sans text-5xl text-brown italic text-center -ml-2 leading-tight sm:text-3xl  ">
+          <h2 className="font-sans text-5xl text-brown italic text-center -ml-2 leading-tight sm:text-3xl xs:text-2xl ss:text-xl">
             Get in touch
           </h2>
 
-          <div className="flex mx-auto w-full justify-center items-center space-x-36 my-28 2xl:justify-between 2xl:space-x-3 md:grid md:grid-cols-2 md:gap-y-10 sm:flex sm:flex-wrap sm:justify-start ">
+          <div className="flex mx-auto w-full justify-center items-center space-x-36 py-28 2xl:justify-between 2xl:space-x-3 md:grid md:grid-cols-2 md:gap-y-10 sm:flex sm:flex-wrap sm:justify-start md:border-b-2 md:border-brown ">
             <div className=" sm:hidden">
               <Image
                 src="/images/linda.png"
@@ -98,7 +98,7 @@ export default function Home() {
               height={372}
             />
           </div>
-          <div className="absolute right-[10%] -top-24 mb-24">
+          <div className="absolute right-[10%] -top-24 mb-24 md:right-[4%]">
             <a
               target="_blank"
               rel="noopener noreferrer"

@@ -18,6 +18,7 @@ module.exports = {
       sans: ["Inter", "system-ui"],
       serif: ["InikaBold", "Inter"],
       mono: ["InikaRegular", "Inter"],
+      italic: ["InterMedium", "Inter"],
     },
     screens: {
       "2xl": { max: "1660px" },
@@ -38,7 +39,7 @@ module.exports = {
       xs: { max: "500px" },
       // => @media (max-width: 639px) { ... }
 
-      xss: { max: "400" },
+      ss: { max: "400px" },
       // => @media (max-width: 639px) { ... }
     },
   },
