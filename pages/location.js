@@ -90,16 +90,17 @@ export default function Home() {
             </div>
           </div>
         </article>
-        <article className="mt-36 ">
+        <article className="mt-36 md:mt-28 ">
           <div className="w-[100rem] mx-auto mb-16 2xl:w-full 2xl:px-12 md:px-6 sm:px-4 xs:px-2">
-            <h2 className="text-brown text-5xl pb-16  font-black leading-tight flex flex-wrap sm:text-4xl  sm:text-center xs:text-3xl ss:text-2xl">
+            <h2 className="text-brown text-5xl pb-16  font-black leading-tight flex flex-wrap sm:text-4xl  sm:text-center xs:text-3xl ss:text-2xl md:pb-10">
               The{" "}
               <span className="relative mx-2 mb-8">
-                <UpperCircle className="absolute -mt-6 sm:scale-[80%]" /> area{" "}
-                <DownCircle className="absolute sm:scale-[80%]" />
+                <UpperCircle className="absolute -mt-6 sm:scale-[80%] sm:-left-1 xs:scale-[45%] xs:-left-5" />{" "}
+                area{" "}
+                <DownCircle className="absolute sm:scale-[80%] sm:-left-1 xs:scale-[45%] xs:-left-5" />
               </span>
               around
-              <span className="italic font-light"> Y&L Villa.</span>
+              <span className="italic font-light "> Y&L Villa.</span>
             </h2>
             <p>
               Location In the Heart of Historical Centre of Antwerp next to

@@ -183,11 +183,11 @@ export default function Home() {
             />
           </div>
           <div className="w-[100rem] mx-auto 2xl:w-full ">
-            <h2 className="text-brown text-5xl pb-20 mt-24 italic leading-tight sm:text-4xl  sm:text-center xs:text-3xl ss:text-2xl">
+            <h2 className="text-brown text-5xl pb-20 mt-24 italic leading-tight sm:text-4xl  sm:text-center xs:text-3xl ss:text-2xl sm:mt-16 sm:pb-16">
               <span className="font-black not-italic">
                 A{" "}
                 <span className="relative">
-                  <Wave className="absolute -mt-2 top-0 left-10 sm:scale-[80%] sm:left-5" />
+                  <Wave className="absolute -mt-2 top-0 left-10 sm:scale-[80%] sm:left-5 xs:scale-[45%] xs:left-1" />
                   Beautiful
                 </span>{" "}
                 House in the heart of{" "}
@@ -244,11 +244,13 @@ export default function Home() {
             <span className="font-black not-italic flex justify-center">
               Take a l
               <span className="relative">
-                <Eye className="absolute sm:scale-[75%] sm:-left-1" />o
+                <Eye className="absolute sm:scale-[75%] sm:-left-1 xs:scale-[45%] xs:-left-1.5" />
+                o
               </span>
               <span className="relative">
                 {" "}
-                <Eye className="absolute sm:scale-[75%] sm:-left-1" />o
+                <Eye className="absolute sm:scale-[75%] sm:-left-1 xs:scale-[45%] xs:-left-1.5" />
+                o
               </span>
               k
             </span>
@@ -639,7 +641,7 @@ export default function Home() {
             <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-4xl xs:text-3xl ss:text-2xl ">
               <span className="font-black cursor-not-italic relative">
                 Practical{" "}
-                <Wave className="absolute left-[35%] sm:scale-[70%]" />
+                <Wave className="absolute left-[35%] sm:scale-[70%] xs:scale-[45%] " />
               </span>{" "}
               information
             </h2>

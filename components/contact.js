@@ -11,7 +11,7 @@ function Contact() {
         <div className="grid grid-cols-2 gap-6 lg:flex lg:flex-col">
           <div className="flex flex-col justify-between py-4 sm:pb-10 ">
             <div className="leading-tight sm:flex sm:flex-col sm:items-center">
-              <Wave className="md:mb-4 sm:scale-[70%]" />
+              <Wave className="md:mb-4 sm:scale-[70%] xs:scale-[45%]" />
               <h2 className="text-5xl italic text-cream  pb-16  leading-tight sm:text-4xl sm:pb-6 sm:text-center xs:text-3xl ss:text-2xl">
                 <span className="font-black not-italic">
                   Are you interested?
