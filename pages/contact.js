@@ -18,11 +18,11 @@ export default function Home() {
       <Navbar />
 
       <main className={styles.main}>
-        <article className="pw-[100rem] mx-auto pt-36  pb-20 leading-relaxed 2xl:w-full 2xl:px-12 md:px-6 md:pb-10">
-          <h1 className="font-sans font-black text-center text-5xl uppercase text-brown tracking-widest leading-tight">
+        <article className="pw-[100rem] mx-auto pt-36  pb-20 leading-relaxed 2xl:w-full 2xl:px-12 md:px-6 md:pb-10 sm:px-2">
+          <h1 className="font-sans font-black text-center text-5xl uppercase text-brown tracking-widest leading-tight sm:text-4xl">
             Contact
           </h1>
-          <h2 className="font-sans text-5xl text-brown italic text-center -ml-2 leading-tight">
+          <h2 className="font-sans text-5xl text-brown italic text-center -ml-2 leading-tight sm:text-3xl  ">
             Get in touch
           </h2>
 

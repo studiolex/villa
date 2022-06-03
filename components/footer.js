@@ -2,8 +2,11 @@ import Link from "next/link";
 import WhatsappGold from "../public/images/whatsapp_gold.svg";
 import FacebookGold from "../public/images/facebook_gold.svg";
 import InstagramGold from "../public/images/instagram_gold.svg";
+import { useRouter } from "next/router";
 
 function Footer() {
+  const router = useRouter();
+  const path = router.pathname;
   return (
     <>
       <footer className="">
@@ -57,22 +60,22 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="">
-                    <Link className="" href="/about">
+                    <Link className="" href="/#about">
                       <a>About</a>
                     </Link>
                   </li>
                   <li className="">
-                    <Link className="" href="/gallery">
+                    <Link className="" href="/#gallery">
                       <a>Gallery</a>
                     </Link>
                   </li>
                   <li className="">
-                    <Link className="" href="/prices">
+                    <Link className="" href="/#prices">
                       <a>Prices</a>
                     </Link>
                   </li>
                   <li className="">
-                    <Link className="" href="/practical">
+                    <Link className="" href="/#practical">
                       <a>Practical info</a>
                     </Link>
                   </li>

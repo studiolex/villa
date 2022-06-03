@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
 
       <main className="">
-        <div className="hidden md:block relative md:mt-6">
+        <div className="hidden md:block relative md:pt-6">
           <MiniGallery />
         </div>
         <header
@@ -176,7 +176,7 @@ export default function Home() {
             />
           </div>
           <div className="w-[100rem] mx-auto 2xl:w-full ">
-            <h2 className="text-brown text-5xl pb-20 mt-24 italic leading-tight sm:text-4xl sm:text-center">
+            <h2 className="text-brown text-5xl pb-20 mt-24 italic leading-tight sm:text-3xl  sm:text-center">
               <span className="font-black not-italic">
                 A{" "}
                 <span className="relative">
@@ -200,17 +200,21 @@ export default function Home() {
               </p>
               <div className="flex items-center justify-center space-x-10 sm:mt-10 lg:space-x-24 md:space-x-0 md:justify-around">
                 <div>
-                  <p className="text-gold text-6xl font-sans font-black">
+                  <p className="text-gold text-6xl sm:text-5xl font-sans font-black">
                     180<span className="text-xs">m2</span>{" "}
                   </p>
                   <p className="font-mono font-light">Surface</p>
                 </div>
                 <div>
-                  <p className="text-gold text-6xl font-sans font-black">3</p>
+                  <p className="text-gold text-6xl sm:text-5xl font-sans font-black">
+                    3
+                  </p>
                   <p className="font-mono font-light">Bedrooms</p>
                 </div>
                 <div>
-                  <p className="text-gold text-6xl font-sans font-black">2</p>
+                  <p className="text-gold text-6xl sm:text-5xl font-sans font-black">
+                    2
+                  </p>
                   <p className="font-mono font-light">Toilets</p>
                 </div>
               </div>
@@ -219,35 +223,35 @@ export default function Home() {
         </article>
         <article
           id="gallery"
-          className="pt-28 pb-20 bg-darkcream relative sm:py-10 sm:pt-20 my-2"
+          className="pt-28 pb-20 bg-darkcream relative sm:py-10 sm:pt-24 my-2"
         >
-          <h2 className="text-brown text-5xl italic  leading-tight text-center sm:text-4xl">
+          <h2 className="text-brown text-5xl italic  leading-tight text-center sm:text-3xl ">
             <span className="font-black not-italic flex justify-center">
               Take a l
               <span className="relative">
-                <Eye className="absolute" />o
+                <Eye className="absolute " />o
               </span>
               <span className="relative">
                 {" "}
-                <Eye className="absolute" />o
+                <Eye className="absolute " />o
               </span>
               k
             </span>
             You&apos;re always welcome
           </h2>
-          <div className="my-20 2xl:pl-12 md:px-6 sm:px-2">
+          <div className="my-20 2xl:pl-12 md:px-6 sm:px-2 sm:my-10">
             <Gallery />{" "}
           </div>
         </article>
         <article id="prices" className="bg-brown  ">
           <div className="py-36 text-cream w-[100rem] mx-auto 2xl:w-full   2xl:px-12 md:px-6 md:py-24 md:pb-10 sm:px-2">
             <div className="pb-20">
-              <h2 className="text-5xl font-black sm:text-4xl sm:text-center">
+              <h2 className="text-5xl font-black sm:text-3xl  sm:text-center">
                 Price
                 <span className="relative">
-                  <Line className="absolute left-[50%] top-[50%] -mt-5 " />
+                  {/* <Line className="absolute left-[50%] top-[50%] -mt-5 " /> */}
                   <span className="">s</span>
-                  <Line className="absolute left-[50%] top-[50%] mt-3 " />
+                  {/* <Line className="absolute left-[50%] top-[50%] mt-3 " /> */}
                 </span>
                 <span className="font-light italic"> &</span> Amenities
               </h2>
@@ -285,7 +289,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="flex items-center py-12 md:flex-col ">
-                  <Link href="home">
+                  <Link href="/contact">
                     <div className="inline-block min-w-max ">
                       <div className="flex bg-cream rounded-full items-center  ">
                         <div className="bg-gold rounded-full p-2 border-2 border-cream">
@@ -617,7 +621,7 @@ export default function Home() {
           className="w-[100rem] mx-auto 2xl:w-full 2xl:px-12 py-36 md:px-6 md:py-24 my-2 sm:px-2"
         >
           <div>
-            <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-4xl">
+            <h2 className="text-brown text-5xl pb-20 font-light italic leading-tight text-center sm:text-3xl ">
               <span className="font-black cursor-not-italic relative">
                 Practical <Wave className="absolute left-[35%]" />
               </span>{" "}
