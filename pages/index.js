@@ -49,7 +49,7 @@ export default function Home() {
                 </div>
                 <div className=" ">
                   <div className=" flex items-center border-2 border-brown rounded-full px-1 py-2 pr-6 bg-cream z-0 ">
-                    <div className="mx-4">
+                    <div className="mx-4 sm:mx-3">
                       <svg
                         width="6"
                         height="24"
@@ -69,8 +69,8 @@ export default function Home() {
                         />
                       </svg>
                     </div>
-                    <p className="text-gold font-serif text-s sm:text-xs">
-                      Book directly, for a free breakfast basket
+                    <p className="text-gold font-serif text-s sm:text-xs xs:text-[10px]">
+                      Book directly for a Free breakfast basket
                     </p>
                   </div>
                 </div>
