@@ -647,15 +647,15 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 gap-12 md:flex md:flex-col-reverse ">
+          <div className="grid grid-cols-2 gap-12 md:flex md:flex-col-reverse py-20 lg:py-8 md:py-0 ">
             <div>
               <div>
                 <p>
                   Public Parking space available around the corner (5 min walk
                   distance from the house) at{" "}
                   <span className="italic font-medium">
-                    Parking Brabo Kammenstraat Antwerp/ Grote
-                    markt/Scheldenkaaien.{" "}
+                    Parking Brabo Kammenstraat Antwerp/ Grote markt/
+                    Scheldenkaaien.{" "}
                   </span>
                   <br />
                   <br />

@@ -70,7 +70,7 @@ function Navbar() {
             </div>
             {/* Menu Desktop */}
             <div className="block md:hidden">
-              <div className="ml-16">
+              <div className="ml-24">
                 {path == "/" && (
                   <Scrollspy
                     items={["home", "about", "gallery", "prices", "practical"]}

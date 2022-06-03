@@ -51,7 +51,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center space-x-2 my-2">
                   <Shopping />
-                  <li className="">800 meters from the Meir. </li>
+                  <li className="">800 meters from the Meir</li>
                 </div>
                 <div className="flex items-center space-x-2 my-2">
                   <Airport />
@@ -62,7 +62,7 @@ export default function Home() {
                 <div className="flex items-center space-x-2 my-2">
                   <Airport />
                   <li className="">
-                    Brussels international Airport is only 37km away!{" "}
+                    Brussels International Airport is only 37km away{" "}
                   </li>
                 </div>
               </ul>
@@ -121,7 +121,7 @@ export default function Home() {
                       target="_blank"
                       rel="noopener noreferrer"
                       href="https://www.visitantwerpen.be/nl"
-                      className="text-brown font-serif hover:opacity-50 transition ease-in-out duration-300"
+                      className="text-brown font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                     >
                       www.visitantwerpen.be
                     </a>
@@ -173,7 +173,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.invincible.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.invincible.be
                       </a>
@@ -184,7 +184,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.dimdining.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.dimdining.be
                       </a>
@@ -196,7 +196,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.bistrotdunord.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.bistrotdunord.be
                       </a>
@@ -207,7 +207,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.zilte.be/"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.tzilte.be
                       </a>
@@ -218,7 +218,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.thejaneantwerp.com"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.thejaneantwerp.com
                       </a>
@@ -229,7 +229,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.hetgebaar.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.hetgebaar.be
                       </a>
@@ -240,7 +240,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.roji.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.roji.be
                       </a>
@@ -251,19 +251,20 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.docks.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.docks.be
                       </a>
                     </li>
                     <li>
-                      Restaurant RAS –
+                      Restaurant RAS –{" "}
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.ras.today"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
+                        {" "}
                         www.ras.today
                       </a>
                     </li>
@@ -273,8 +274,9 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.pazzo.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
+                        {" "}
                         www.pazzo.be
                       </a>
                     </li>
@@ -284,7 +286,7 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                         href="https://www.plateauroyal.be"
-                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-2"
                       >
                         www.plateauroyal.be
                       </a>
