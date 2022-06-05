@@ -14,7 +14,7 @@ export default function Home() {
         <title>Y&L Vila - Contact</title>
         <meta
           name="description"
-          content="Get in touvh with Linda Vogelzang for more information/availibility/reservations for Y&L Villa"
+          content="Get in touch with Linda Vogelzang for more information/availibility/reservations for Y&L Villa"
         />
       </Head>
       <Navbar />
