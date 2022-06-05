@@ -97,6 +97,51 @@ a {
   width: 24px !important;
 }
 
+.whatsapp div,
+.book div,
+.contact div {
+  transition: left 0.2s linear;
+}
+
+.whatsapp:hover div {
+  left: 76%;
+}
+
+.book:hover div {
+  left: 82%;
+}
+
+.contact:hover div {
+  left: 82%;
+}
+
+.whatsapp:hover .old,
+.book:hover .old,
+.contact:hover .old {
+  visibility: hidden;
+  color: wheat;
+}
+
+.whatsapp .old,
+.book .old,
+.contact .old {
+  transition: all 0.05s linear;
+}
+
+.whatsapp:hover .new {
+  display: flex;
+  left: 0rem;
+}
+
+.book:hover .new {
+  display: flex;
+  left: 0.5rem;
+}
+
+.contact:hover .new {
+  display: flex;
+  left: 1rem;
+}
 @media screen and (max-width: 850px) {
   html,
   body {

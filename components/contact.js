@@ -66,25 +66,32 @@ function Contact() {
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://wa.me/+32494924558"
-                  className="flex items-center border-2 border-cream rounded-full my-4 sm:m-4 hover:opacity-75 transition ease-in-out duration-500  text-cream"
+                  className="relative contact flex  justify-end  h-[2.5rem] min-w-[14rem] items-center border-2 border-cream rounded-full my-4 md:m-4 hover:bg-cream transition ease-in-out duration-500 sm:w-[15rem]"
                 >
-                  <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full ">
+                  <div className="absolute bg-cream p-2 border-2 border-cream inline-block rounded-full left-0 transition ease-in-out duration-300">
                     <Whatsapp />
                   </div>
-                  <p className=" font-black mx-auto text-[.85rem] sm:text-[1rem] sm:mx-6 xs:mx-3 ">
+                  <p className="old text-cream text-[.9rem] font-black px-6  sm:text-[1.05rem] ">
+                    +32 4 94 92 45 58
+                  </p>
+                  <p className="new hidden absolute text-brown text-[.9rem] font-black px-6  sm:text-[1.05rem]">
                     +32 4 94 92 45 58
                   </p>
                 </a>
+
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="mailto:linda@ylvilla.be"
-                  className="flex items-center border-2 border-cream rounded-full my-4 sm:m-4  hover:opacity-75 transition ease-in-out duration-500 text-cream"
+                  className="relative contact flex  justify-end  h-[2.5rem] min-w-[14rem] items-center border-2 border-cream rounded-full my-4 md:m-4 hover:bg-cream transition ease-in-out duration-500 sm:w-[15rem]"
                 >
-                  <div className="bg-cream p-2 border-2 border-cream inline-block rounded-full">
+                  <div className="absolute bg-cream p-2 border-2 border-cream inline-block rounded-full left-0 transition ease-in-out duration-300">
                     <Mail />
                   </div>
-                  <p className=" font-black mx-auto text-[.9rem] sm:text-[1.05rem] sm:mx-6 xs:mx-3 ">
+                  <p className="old text-cream text-[.9rem] font-black px-6  sm:text-[1.05rem] mr-2 ">
+                    linda@ylvilla.be
+                  </p>
+                  <p className="new hidden absolute text-brown text-[.9rem] font-black px-6  sm:text-[1.05rem] mr-2">
                     linda@ylvilla.be
                   </p>
                 </a>

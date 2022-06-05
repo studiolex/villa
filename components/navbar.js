@@ -118,9 +118,9 @@ function Navbar() {
               target="_blank"
               rel="noopener noreferrer"
               href="https://wa.me/+32494924558"
-              className="flex items-center border-2 border-whatsapp rounded-full min-w-max cursor-pointer md:hidden hover:opacity-75 transition ease-in-out duration-500"
+              className="relative whatsapp flex items-center justify-end  h-[2.5rem] border-2 border-whatsapp rounded-full min-w-[10rem] cursor-pointer md:hidden  transition ease-in-out duration-500 hover:bg-whatsapp "
             >
-              <div className="bg-whatsapp rounded-full  p-2">
+              <div className="bg-whatsapp rounded-full p-2 absolute left-0 transition ease-in-out duration-300">
                 <svg
                   width="19"
                   height="20"
@@ -134,9 +134,12 @@ function Navbar() {
                   />
                 </svg>
               </div>
-              <li className="text-whatsapp font-black text-xs px-4 list-none">
+              <p className="old text-whatsapp font-black text-xs px-4 list-none">
                 +32 3 237 17 40
-              </li>
+              </p>
+              <p className="new hidden absolute text-cream font-black text-xs px-4 list-none left-20 ">
+                +32 3 237 17 40
+              </p>
             </a>
           </div>
           {/* Menu Mobile */}

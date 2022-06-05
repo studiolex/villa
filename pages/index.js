@@ -149,7 +149,7 @@ export default function Home() {
             </p>
             <div className="flex items-center mb-4 ">
               <Link className="" href="/#about">
-                <a className="text-brown uppercase pr-2 font-serif">
+                <a className="text-brown uppercase pr-2 font-serif hover:text-gold transition ease-in-out duration-300 ">
                   Read more
                 </a>
               </Link>
@@ -309,9 +309,9 @@ export default function Home() {
                 </div>
                 <div className="flex items-center py-12 md:flex-col ">
                   <Link href="/contact">
-                    <div className="inline-block min-w-max ">
-                      <div className="flex bg-cream rounded-full items-center text-brown transition ease-in-out duration-300 hover:text-gold hover:bg-cream hover  ">
-                        <div className="bg-gold rounded-full p-2 border-2 border-cream">
+                    <div className="inline-block min-w-max cursor-pointer ">
+                      <div className="book flex bg-cream rounded-full items-center justify-end    transition ease-in-out duration-500  hover:bg-gold relative  h-[2.5rem]  min-w-[14rem]">
+                        <div className="bg-gold rounded-full p-2 border-2 border-cream absolute left-0 transition ease-in-out duration-300">
                           <svg
                             width="20"
                             height="20"
@@ -335,9 +335,12 @@ export default function Home() {
                             />
                           </svg>
                         </div>
-                        <a className="uppercase  px-4 pr-6 font-serif text-m hover">
+                        <p className=" old uppercase  px-4 pr-6 font-serif text-m hover text-brown ">
                           Book your stay!
-                        </a>
+                        </p>
+                        <p className="new uppercase  px-4 pr-6 font-serif text-m  text-cream   hidden absolute   ">
+                          Book your stay!
+                        </p>
                       </div>
                     </div>
                   </Link>

@@ -64,25 +64,32 @@ export default function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://wa.me/+32494924558"
-                className="flex items-center border-2 border-brown rounded-full  my-4 md:m-4"
+                className="relative contact flex  justify-end  h-[2.5rem] min-w-[14rem] items-center border-2 border-brown rounded-full my-4 md:m-4 hover:bg-brown transition ease-in-out duration-500 sm:w-[15rem]"
               >
-                <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full ">
+                <div className="absolute bg-brown p-2 border-2 border-brown inline-block rounded-full left-0 transition ease-in-out duration-300">
                   <Whatsapp />
                 </div>
-                <p className="text-brown text-[.85rem] font-black px-6 mx-auto sm:text-[1rem] ">
+                <p className="old text-brown text-[.9rem] font-black px-6  sm:text-[1.05rem] ">
+                  +32 4 94 92 45 58
+                </p>
+                <p className="new hidden absolute text-cream text-[.9rem] font-black px-6  sm:text-[1.05rem]">
                   +32 4 94 92 45 58
                 </p>
               </a>
+
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="mailto:linda@ylvilla.be"
-                className="flex items-center border-2 border-brown rounded-full my-4 md:m-4 "
+                className="relative contact flex  justify-end  h-[2.5rem] min-w-[14rem] items-center border-2 border-brown rounded-full my-4 md:m-4 hover:bg-brown transition ease-in-out duration-500 sm:w-[15rem]"
               >
-                <div className="bg-brown p-2 border-2 border-brown inline-block rounded-full">
+                <div className="absolute bg-brown p-2 border-2 border-brown inline-block rounded-full left-0 transition ease-in-out duration-300">
                   <Mail />
                 </div>
-                <p className="text-brown text-[.9rem] font-black px-6 mx-auto sm:text-[1.05rem] ">
+                <p className="old text-brown text-[.9rem] font-black px-6  sm:text-[1.05rem] mr-2 ">
+                  linda@ylvilla.be
+                </p>
+                <p className="new hidden absolute text-cream text-[.9rem] font-black px-6  sm:text-[1.05rem] mr-2">
                   linda@ylvilla.be
                 </p>
               </a>
