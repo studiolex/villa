@@ -50,13 +50,14 @@ export default function Home() {
                 </div>
                 <div className=" ">
                   <div className=" flex items-center border-2 border-brown rounded-full px-1 py-2 pr-6 bg-cream z-0 ">
-                    <div className="mx-4 sm:mx-3">
+                    <div className="mx-4 sm:mx-3 sm:mr-2">
                       <svg
                         width="6"
                         height="24"
                         viewBox="0 0 6 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
+                        className="sm:w-[50%]"
                       >
                         <path
                           d="M4.42047 17.39C4.12047 17.45 3.73047 17.48 3.25047 17.48C2.79047 17.48 2.23047 17.43 1.57047 17.33L0.850469 1.34C1.43047 1.28 2.06047 1.25 2.74047 1.25C3.44047 1.25 4.14047 1.33 4.84047 1.49L4.42047 17.39ZM1.00047 19.28C1.78047 19.22 2.44047 19.19 2.98047 19.19C3.54047 19.19 4.22047 19.28 5.02047 19.46C5.10047 20.04 5.14047 20.57 5.14047 21.05C5.14047 21.51 5.05047 22.19 4.87047 23.09C4.09047 23.15 3.42047 23.18 2.86047 23.18C2.32047 23.18 1.65047 23.09 0.850469 22.91C0.770469 22.33 0.730469 21.81 0.730469 21.35C0.730469 20.87 0.820469 20.18 1.00047 19.28Z"
@@ -71,7 +72,7 @@ export default function Home() {
                       </svg>
                     </div>
                     <p className="text-gold font-serif text-s sm:text-xs xs:text-[10px]">
-                      Book directly for a Free breakfast basket
+                      Book directly and receive a bottle of champagne.
                     </p>
                   </div>
                 </div>
@@ -92,10 +93,11 @@ export default function Home() {
                 <div className="z-2 lg:hidden">
                   {" "}
                   <Image
-                    src="/images/breakfast.png"
-                    alt="Breakfast basket"
+                    src="/images/champagne.png"
+                    alt="Champagne bottle"
                     width={100}
                     height={100}
+                    className="sm:w-[50%]"
                   />
                 </div>
 
@@ -121,7 +123,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <p className="text-gold font-serif text-s">
-                    Book directly, for a free breakfast basket
+                    Book directly and receive a bottle of champagne.
                   </p>
                 </div>
               </div>
