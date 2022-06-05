@@ -246,14 +246,25 @@ export default function Home() {
                       </a>
                     </li>
                     <li>
-                      Restaurant Dock’s cafe –
+                      Tamo Restaurant –
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://www.docks.be"
+                        href="https://www.tamorestaurant.com/"
                         className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                       >
-                        www.docks.be
+                        www.tamorestaurant.com
+                      </a>
+                    </li>{" "}
+                    <li>
+                      Restaurant Marcel –
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://www.restaurantmarcel.be/"
+                        className="text-gold font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
+                      >
+                        www.restaurantmarcel.be
                       </a>
                     </li>
                     <li>

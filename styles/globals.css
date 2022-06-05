@@ -17,6 +17,7 @@ body {
     linear-gradient(#fbf7ee 0 0) calc(5 * 100% / 6), #fffcf5;
   background-size: 2px 100%; /* Control the width here*/
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -50,6 +51,10 @@ a {
 
 .swiper-pagination-bullet {
   background-color: #704e2e !important;
+}
+
+.swiper-pagination {
+  z-index: 1 !important;
 }
 
 .swiper-pagination-bullet-active {
