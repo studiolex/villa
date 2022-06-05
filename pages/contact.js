@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <Navbar />
 
-      <main className={styles.main}>
+      <main>
         <article className="pw-[100rem] mx-auto pt-36  pb-20 leading-relaxed 2xl:w-full 2xl:px-12 md:px-6 md:pb-10 sm:px-4 xs:px-2">
           <h1 className="font-sans font-black text-center text-5xl uppercase text-brown tracking-widest leading-tight sm:text-4xl">
             Contact
@@ -98,13 +98,15 @@ export default function Home() {
             </div>
           </div>
         </article>
-        <div className="relative">
-          <div className="relative">
+        <div className="w-[100rem] mx-auto  2xl:w-full relative">
+          <div className="w-full min-h-[60%] h-full   ">
+            {" "}
             <Image
               src="/images/contact.png"
-              alt="Picture of Coil Slitting"
+              alt="Bathroom of Y&L Villa"
               width={1920}
               height={372}
+              className="w-full h-auto object-cover  "
             />
           </div>
           <div className="absolute right-[10%] -top-32 mb-24 md:right-2">

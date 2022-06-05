@@ -181,7 +181,7 @@ export default function Home() {
             <Image
               className="w-full h-full "
               src="/images/beautiful_house.png"
-              alt="Mast bedroom of Y&L Villa"
+              alt="Master bedroom of Y&L Villa"
               width={3060}
               height={984}
             />
