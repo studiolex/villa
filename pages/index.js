@@ -10,8 +10,18 @@ import Wave from "../public/images/wave.svg";
 import Eye from "../public/images/eye.svg";
 import Line from "../public/images/line.svg";
 import MiniGallery from "../components/minigallery";
+import { useEffect } from "react";
+import Script from "next/script";
 
 export default function Home() {
+  useEffect(() => {
+    window.options = {
+      api_key: "MjYyMi0tNjJiYzYyODYyOGFmNg==",
+      height: "1000px",
+      width: "100%",
+      min_height: "1000px",
+    };
+  }, []);
   return (
     <div>
       <Head>
@@ -25,6 +35,11 @@ export default function Home() {
       <Navbar />
 
       <main className="">
+        <Script
+          id="vr_MjYyMi0tNjJiYzYyODYyOGFmNg=="
+          src="https://www.vrcalendarsync.com/embed.js"
+          async={true}
+        />
         <div className="hidden md:block relative md:pt-16">
           <MiniGallery />
         </div>
