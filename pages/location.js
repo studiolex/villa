@@ -13,7 +13,7 @@ import Church from "../public/images/church.svg";
 import Shopping from "../public/images/shopping.svg";
 import Airport from "../public/images/airport.svg";
 
-export default function Home() {
+export default function Location() {
   return (
     <div className={styles.container}>
       <Head>

@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 import Whatsapp from "../public/images/whatsapp_white.svg";
 import Mail from "../public/images/mail_white.svg";
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className={styles.container}>
       <Head>
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
         </article>
         <div className="w-[100rem] mx-auto  2xl:w-full relative">
-          <div className="w-full min-h-[60%] h-full   ">
+          <div className="w-full min-h-[60%] h-full  ">
             {" "}
             <Image
               src="/images/contact.png"
@@ -110,7 +110,7 @@ export default function Home() {
             />
           </div>
           <div className="absolute right-[10%] -top-32 mb-24 md:right-2">
-            <a
+            <div
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.google.be/maps/place/HH+Geeststraat+7,+2000+Antwerpen/@51.218846,4.3957787,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f6f69face41b:0x79551ef9613ddce8!8m2!3d51.2188427!4d4.3979674"
@@ -120,7 +120,7 @@ export default function Home() {
               <span className="font-mono">
                 2000 Antwerpen <br /> Belgium
               </span>
-            </a>
+            </div>
           </div>
         </div>
       </main>

@@ -1,14 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/navbar";
-
 import Footer from "../components/footer";
 import Link from "next/link";
 import Contact from "../components/contact";
 import Gallery from "../components/gallery";
 import Wave from "../public/images/wave.svg";
 import Eye from "../public/images/eye.svg";
-import Line from "../public/images/line.svg";
 import MiniGallery from "../components/minigallery";
 
 export default function Home() {
