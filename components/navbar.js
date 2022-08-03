@@ -180,16 +180,15 @@ function Navbar() {
         )}
       </Disclosure>
       {path != "/tourist" && (
-        <a
-          className="bg-brown  text-sm font-mono text-darkcream fixed mt-16 text-center w-full z-10 flex items-center justify-center "
-          href="/tourist"
-        >
-          <Bus className="mr-4" />
-          <p className=" rounded  -mt-2 p-0.5 font-bold pt-4 pb-2 hover:text-gold  transition ease-in-out duration-500 ">
-            E-Touristram available in Antwerp
-          </p>
-          <Arrow className="ml-4" />
-        </a>
+        <Link className=" " href="/tourist">
+          <a className="bg-brown  text-sm font-mono text-darkcream fixed mt-16 text-center w-full z-10 flex items-center justify-center md:mt-[4.5rem] ">
+            <Bus className="mr-4" />
+            <p className=" rounded  -mt-2 p-0.5 font-bold pt-4 pb-2 hover:text-gold  transition ease-in-out duration-500 ">
+              E-Touristram available in Antwerp
+            </p>
+            <Arrow className="ml-4" />
+          </a>
+        </Link>
       )}
     </div>
   );
