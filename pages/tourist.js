@@ -77,7 +77,7 @@ export default function Location() {
                 </div>
               </ul>
               <a
-                className="inline-block min-w-max cursor-pointer "
+                className="inline-block min-w-max cursor-pointer md:mx-auto w-full"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.eventplanner.net/directory/7132_etouristram.html?_gl=1*1w6p21c*_ga*MjAwNDgzOTk3LjE2NTk1OTgxMTc.*_ga_HN3PFEH097*MTY1OTU5ODExNy4xLjAuMTY1OTU5ODExNy4w"
