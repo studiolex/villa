@@ -76,6 +76,45 @@ export default function Location() {
                   <li className="">Tailormade Tours</li>
                 </div>
               </ul>
+              <a
+                className="inline-block min-w-max cursor-pointer "
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.eventplanner.net/directory/7132_etouristram.html?_gl=1*1w6p21c*_ga*MjAwNDgzOTk3LjE2NTk1OTgxMTc.*_ga_HN3PFEH097*MTY1OTU5ODExNy4xLjAuMTY1OTU5ODExNy4w"
+              >
+                <div className=" mt-12 w-24 book flex bg-gold rounded-full items-center justify-end   transition ease-in-out duration-500  hover:bg-brown relative  h-[2.5rem]  min-w-[13rem] md:mx-auto">
+                  <div className="bg-gold rounded-full p-2 border-2 border-cream absolute left-0 transition ease-in-out duration-300">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.4 2.80078H4.6C2.61177 2.80078 1 4.41256 1 6.40078V15.4008C1 17.389 2.61177 19.0008 4.6 19.0008H15.4C17.3882 19.0008 19 17.389 19 15.4008V6.40078C19 4.41256 17.3882 2.80078 15.4 2.80078Z"
+                        stroke="#FFFCF5"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M1 8.2H19M6.4 1V4.6V1ZM13.6 1V4.6V1Z"
+                        stroke="#FFFCF5"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <p className=" old uppercase  px-4 pr-6 font-serif text-m hover text-cream ">
+                    Go to website!
+                  </p>
+                  <p className="new uppercase  px-4 pr-6 font-serif text-m  text-cream   hidden absolute   ">
+                    Go to website!
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
         </article>

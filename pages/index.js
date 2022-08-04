@@ -28,11 +28,11 @@ export default function Home() {
         </div>
         <header
           id="home"
-          className="grid grid-cols-2 gap-12 w-[100rem] mx-auto py-12 h-screen md:flex md:flex-col 2xl:w-full 2xl:px-12 2xl:md:flex md:px-6 md:h-auto sm:px-4 xs:px-2 sm:pb-0"
+          className="grid grid-cols-2 gap-12 w-[100rem] mx-auto py-16 h-screen md:flex md:flex-col 2xl:w-full 2xl:px-12 2xl:md:flex md:px-6 md:h-auto sm:px-4 xs:px-2 sm:pb-0"
         >
           <div className="flex flex-col justify-between">
             <div className="h-full w-full">
-              <div className="w-full h-[40%] relative md:h-unset md:hidden">
+              <div className="w-full h-[50%] relative md:h-unset md:hidden">
                 <Image
                   layout="fill"
                   className="w-full h-auto object-cover "
