@@ -25,10 +25,10 @@ export default function Location() {
 
       <main>
         <article className="pt-36 w-[100rem] mx-auto 2xl:w-full 2xl:px-12 md:px-6 sm:px-4 xs:px-2">
-          <h1 className="font-sans text-center text-5xl uppercase font-black text-brown tracking-widest sm:text-4xl xs:text-3xl ss:text-2xl">
+          <h1 className="font-sans text-center text-5xl uppercase font-black text-brown tracking-widest sm:text-4xl xs:text-3xl ss:text-2xl md:text-left">
             <span className="font-light">E - </span> Touristram
           </h1>
-          <h2 className="font-sans text-2xl text-brown italic text-center -ml-2 mt-4 leading-tight sm:text-xl xs:text-md ss:text-sm">
+          <h2 className="font-sans text-2xl text-brown italic text-center -ml-2 mt-4 leading-tight sm:text-xl xs:text-md ss:text-sm md:text-left">
             Unique transport and experience.{" "}
           </h2>
           <div className="  my-24 grid grid-cols-2 gap-24 md:flex md:flex-col items-center md:gap-0 md:mb-0 md:mt-14">
