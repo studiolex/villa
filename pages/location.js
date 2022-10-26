@@ -127,6 +127,17 @@ export default function Location() {
                     >
                       www.visitantwerpen.be
                     </a>
+                  </li>{" "}
+                  <li>
+                    Bikerental Cyclant –
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.visitantwerpen.be/nl"
+                      className="text-brown font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
+                    >
+                      https://www.cyclant.com/nl/
+                    </a>
                   </li>
                   <li>Museum Plantin-Moretus “next to the house”</li>
                   <li>Cathedral of our Lady,</li>
