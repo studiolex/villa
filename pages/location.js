@@ -133,10 +133,10 @@ export default function Location() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://www.visitantwerpen.be/nl"
+                      href="https://www.cyclant.com/en/"
                       className="text-brown font-serif hover:opacity-50 transition ease-in-out duration-300 ml-1"
                     >
-                      https://www.cyclant.com/nl/
+                      www.cyclant.com
                     </a>
                   </li>
                   <li>Museum Plantin-Moretus “next to the house”</li>
