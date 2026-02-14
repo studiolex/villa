@@ -58,7 +58,7 @@ function Footer() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.instagram.com/ylvilla_antwerp/"
+                    href="https://www.instagram.com/yl_villa_antwerp/"
                   >
                     <InstagramGold />
                   </a>
