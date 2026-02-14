@@ -144,10 +144,10 @@ function Navbar() {
                   </svg>
                 </div>
                 <p className="old text-whatsapp font-black text-xs px-4 list-none">
-                  +32 3 237 17 40
+                  +32 494 92 45 58
                 </p>
                 <p className="new hidden absolute text-cream font-black text-xs px-4 list-none left-20 ">
-                  +32 3 237 17 40
+                  +32 494 92 45 58
                 </p>
               </a>
             </div>
