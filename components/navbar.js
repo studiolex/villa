@@ -127,7 +127,7 @@ function Navbar() {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://wa.me/+32494924558"
-                className="relative whatsapp flex items-center justify-end  h-[2.5rem] border-2 border-whatsapp rounded-full min-w-[12rem] cursor-pointer md:hidden  transition ease-in-out duration-500 hover:bg-whatsapp "
+                className="relative whatsapp flex items-center justify-end  h-[2.5rem] border-2 border-whatsapp rounded-full min-w-[11rem] cursor-pointer md:hidden  transition ease-in-out duration-500 hover:bg-whatsapp "
               >
                 <div className="bg-whatsapp rounded-full p-2 absolute left-0 transition ease-in-out duration-300">
                   <svg
